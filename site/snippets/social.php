@@ -12,16 +12,10 @@
 */
 ?>
 <span class="social">
-  <a href="https://mastodon.social/@getkirby" aria-label="Follow us on Mastodon">
-    <?= svg('assets/icons/mastodon.svg') ?>
+  <a href="https://www.facebook.com/coopdesvenetes/" aria-label="Suivez-nous sur Facebook">
+    <?= svg('assets/icons/facebook.svg') ?>
   </a>
-  <a href="https://instagram.com/getkirby" aria-label="Follow us on Instagram">
+  <a href="https://www.instagram.com/coop_des_venetes/" aria-label="Suivez-nous sur Instagram">
     <?= svg('assets/icons/instagram.svg') ?>
-  </a>
-  <a href="https://youtube.com/kirbycasts" aria-label="Watch our videos on YouTube">
-    <?= svg('assets/icons/youtube.svg') ?>
-  </a>
-  <a href="https://chat.getkirby.com" aria-label="Chat with us on Discord">
-    <?= svg('assets/icons/discord.svg') ?>
   </a>
 </span>
