@@ -2,11 +2,11 @@ Title: Home
 
 ----
 
-Headline: Welcome to Kirby's Starterkit
+Headline: Bienvenue à la Coop des Vénètes
 
 ----
 
-Subheadline: A fully documented example project
+Subheadline: Le site web de la Coop des Vénètes
 
 ----
 
