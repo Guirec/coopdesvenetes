@@ -1,8 +1,8 @@
-Title: Error
+Title: Oups...
 
 ----
 
-Text: This page cannot be found 😱
+Text: Désolé, cette page n'existe pas 😱
 
 ----
 
