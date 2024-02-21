@@ -338,7 +338,7 @@ hr {
   color: var(--color-text-grey);
 }
 .footer p {
-  max-width: 15rem;
+  max-width: 30rem; /* note JT: valeur initiale 15rem */
 }
 .footer a:hover {
   color: var(--color-text);
@@ -430,5 +430,3 @@ hr {
 .note-excerpt-date {
   color: var(--color-text-grey);
 }
-
-

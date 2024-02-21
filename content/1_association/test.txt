@@ -1,0 +1,25 @@
+Title: coucou
+
+----
+
+Caption: une belle photo dans le magasin où l’on voit des produits et de l’humain
+
+----
+
+Alt: à l'intérieur de notre magasin, à la caisse. Deux coopératrices.
+
+----
+
+Photographer: Lucie
+
+----
+
+License: private
+
+----
+
+Link: https://unsplash.com/photos/Z3NceSeZqgI
+
+----
+
+Template: image
