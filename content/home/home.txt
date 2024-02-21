@@ -10,4 +10,17 @@ Subheadline: Le site web de la Coop des Vénètes
 
 ----
 
-Uuid: wljMYhm0m3e9QOwC
+text-01:
+
+La Coop des Vénètes est un magasin coopératif, participatif et différent! Le magasin, c’est vous, c’est nous: c’est l’ensemble des coopérateurs adhérents au projet.
+
+----
+
+text-02:
+
+La Coop des Vénètes propose une offre de produits de qualité, respectueuse des hommes et de l’environnement à des tarifs très avantageux  grâce à des marges réduites.
+Nous sélectionnons nos produits selon certains critères de bon sens: locaux, souvent bios (tous les fruits et légumes) et de saison, avec le moins d’emballage possible, fabriqués par des gens qui ont à cœur de proposer bons produits fabriqués dans de bonnes conditions.
+
+----
+
+Uuid: sGE35wQGAshtt2Ej
