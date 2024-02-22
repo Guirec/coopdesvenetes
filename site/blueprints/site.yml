@@ -6,18 +6,8 @@
 
 # The layout of this form has two columns:
 columns:
-  # The first column has one section for the subpages of the `photography` page in card layout
-  # It reuses the pages section defined in `/site/blueprints/sections/albums.yml`
   - width: 1/2
     sections:
-      albums: sections/albums
-
-  # The second column has two sections, `notes` and `pages`
-  - width: 1/2
-    sections:
-      # The `notes` section reuses the pages section defined in `/site/blueprints/sections/notes.yml`
-      notes: sections/notes
-
       # The `pages` pages section shows other main pages of the site
       # Using the `templates` option, we limit which types of pages are shown
       # Using the `create` option, we limit the type of page that can be created when a new page is created
@@ -27,6 +17,9 @@ columns:
         type: pages
         create: default
         templates:
-          - about
+          - association
+          - magasin
+          - devenir_cooperateur
+          - contact
           - home
           - default

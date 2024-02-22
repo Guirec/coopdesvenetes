@@ -19,8 +19,8 @@
 */
 
 ?>
-<?php snippet('header') ?>
-<?php snippet('intro') ?>
+<?= snippet('header') ?>
+<?= snippet('intro') ?>
 <?php
   /*
     We always use an if-statement to check if a page exists to
@@ -115,4 +115,4 @@
 
 <img src="assets/images/illustration-devenir-cooperateur.png" alt="une autre photo du magasin">
 
-<?php snippet('footer') ?>
+<?= snippet('footer') ?>
