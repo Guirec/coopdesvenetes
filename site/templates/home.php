@@ -33,19 +33,27 @@
   <?= $page->c_est_quoi_1() ?>
 </p>
 
-<img src="assets/images/photo-magasin.png" alt="une photo dans le magasin avec des humains et des produits">
+<?= $page->file($page->image_filename_1()) ?>
 
 <p>
   <?= $page->c_est_quoi_2() ?>
 </p>
 
 <ul class="picto-selection-produits">
+  <?php foreach($page->find('pictos')->images() as $file): ?>
+    <li>
+      <?= $file ?>
+    </li>
+  <?php endforeach ?>
+</ul>
+
+<!-- <ul class="picto-selection-produits">
   <li><img src="assets/icons/picto-local.png" alt="picto local"></li>
   <li><img src="assets/icons/picto-bio.png" alt="picto bio"></li>
   <li><img src="assets/icons/picto-saison.png" alt="picto saison"></li>
   <li><img src="assets/icons/picto-emballage.png" alt="picto emballage"></li>
   <li><img src="assets/icons/picto-humain.png" alt="picto humain"></li>
-</ul>
+</ul> -->
 
 <h3>
   <?= $page->titre_communaute() ?>
@@ -55,7 +63,7 @@
   <?= $page->c_est_quoi_3() ?>
 </p>
 
-<img src="assets/images/illustration-chariot.png" alt="une illustration avec le chariot rempli de bons produits et de symobles de nos valeurs: plantes, oiseaux, jardinage, vélo...">
+<?= $page->file($page->image_filename_2()) ?>
 
 <div class="button-container">
   <a class="button" href="">L'association</a>

@@ -10,25 +10,65 @@ icon: 🏠
 options:
   changeStatus: false
 
-# Here we define an info section and a pages section (`photography`)
+# on the left column we define a form to update text fields
 sections:
-  content:
+  content_1:
     type: fields
     fields:
       headline:
         type: text
         width: 1/2
-      gap:
-        width: 1/2
       subheadline:
         type: text
         width: 1/2
-
-  # The photography section extends a pages section defined in the `/site/blueprints/section/album.yml` blueprint
-  # More about reusing and extending sections: https://getkirby.com/docs/guide/blueprints/extending-blueprints#reusing-and-extending-sectionss
-  association:
-    label: L'association
-    extends: sections/albums
-    status: listed
-    size: small
-    help: All projects for the homepage are being pulled from the association page.
+      c_est_quoi_1:
+        label: C'est quoi? (1ère partie)
+        type: textarea
+  image_1:
+    type: files
+    filename: {{ image_filename_1 }}
+  content_2:
+    type: fields
+    fields:
+      c_est_quoi_2:
+        label: C'est quoi? (2ème partie)
+        type: textarea
+  pictos:
+    type: files
+    layout: cards
+  content_3:
+    type: fields
+    fields:
+      titre_communaute:
+        label: Titre "une communauté..."
+        type: text
+      c_est_quoi_3:
+        label: C'est quoi? (3ème partie)
+        type: textarea
+      c_est_quoi_4:
+        label: C'est quoi? (4ème partie)
+        type: textarea
+      titre_pour_tous:
+        label: Titre "La Coop, c'est pour qui?"
+        type: text
+      c_est_pour_qui:
+        label: C'est pour qui?
+        type: textarea
+      comment_ca_marche_1:
+        label: Comment ça marche? (1ère partie)
+        type: textarea
+      devenir_cooperateur_etape_1:
+        label: Devenir coopérateur (1ère étape)
+        type: textarea
+      devenir_cooperateur_etape_2:
+        label: Devenir coopérateur (2ème étape)
+        type: textarea
+      devenir_cooperateur_etape_3:
+        label: Devenir coopérateur (3ème étape)
+        type: textarea
+      comment_ca_marche_2:
+        label: Comment ça marche? (2ème partie)
+        type: textarea
+      comment_ca_marche_3:
+        label: Comment ça marche? (3ème partie)
+        type: textarea
