@@ -15,6 +15,10 @@ La Coop des Vénètes est un magasin coopératif, participatif et différent! Le
 
 ----
 
+image_filename_1: photo-magasin.png
+
+----
+
 c_est_quoi_2:
 La Coop des Vénètes propose une offre de produits de qualité, respectueuse des hommes et de l’environnement à des tarifs très avantageux  grâce à des marges réduites.
 Nous sélectionnons nos produits selon certains critères de bon sens: locaux, souvent bios (tous les fruits et légumes) et de saison, avec le moins d’emballage possible, fabriqués par des gens qui ont à cœur de proposer bons produits fabriqués dans de bonnes conditions.
@@ -25,8 +29,13 @@ titre_communaute:
 Une communauté chaleureuse et engagée
 
 ----
+
 c_est_quoi_3:
 La Coop des Vénètes, ce n’est pas qu’un lieu pour faire ses courses. C’est aussi un lieu d’échange et de partage: ensemble nous tissons des liens entre coopérateurs et entre associations du territoire qui défendent les mêmes valeurs et prônent une autre façon de consommer, de vivre… de transitionner!
+
+----
+
+image_filename_2: illustration-chariot.png
 
 ----
 
@@ -49,7 +58,7 @@ Et oui… tout le monde peut devenir coopérateur. Que vous soyez étudiant, en 
 
 ----
 
-comment_ca_marche-1:
+comment_ca_marche_1:
 Pour être coopérateur et faire ses courses à la Coop des Vénètes, c’est très simple:
 
 
@@ -67,12 +76,12 @@ devenir_cooperateur_etape_3: Vous êtes bénévole dans le magasin 3h par mois. 
 
 ----
 
-comment_ca_marche-2:
+comment_ca_marche_2:
 Cela vous permet de faire vos courses à la Coop aussi souvent que vous le souhaitez pour vous-même et pour les personnes avec lesquelles vous vivez.
 
 ----
 
-comment_ca_marche-3:
+comment_ca_marche_3:
 Le magasin est également ouvert à tous les non coopérants pour leur faire découvrir le magasin deux fois sans engagement.
 
 ----
