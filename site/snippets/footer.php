@@ -19,17 +19,9 @@
           formulaire d'abonnement à la newsletter
         </p>
       </div>
+
       <div class="column" style="--columns: 5">
-        <h2>Horaires d'ouverture</h2>
-        <ul>
-          <li>Lundi : 10h à 12h30 | 15h à 19h</li>
-          <li>Mardi : 10h à 12h30</li>
-          <li>Mercredi : 10h à 12h30 | 15h à 19h</li>
-          <li>Jeudi : 10h à 12h30 | 15h à 19h</li>
-          <li>Vendredi : 10h à 12h30 | 15h à 19h</li>
-          <li>Samedi : 10h à 12h30 | 15h à 17h30</li>
-          <li>Dimanche : fermé</li>
-        </ul>
+        <?php snippet('horaires') ?>
         <br>
         <h2>Infos aux livreur·euse·s</h2>
         <img src="assets/icons/picto-livraison.png" alt="picto camion de livraison" style="width: 50px">
