@@ -29,43 +29,90 @@
   */
 ?>
 
+<p>
+  <?= $page->c_est_quoi_1() ?>
+</p>
 
-<?= $page->text() ?>
+<img src="assets/images/photo-magasin.png" alt="une photo dans le magasin avec des humains et des produits">
 
-<img src="" alt="">
+<p>
+  <?= $page->c_est_quoi_2() ?>
+</p>
 
-<?= $page->textarea() ?>
-
-
-<?php if ($photographyPage = page('photography')): ?>
-<ul class="home-grid">
-  <?php foreach ($photographyPage->children()->listed() as $album): ?>
-  <li>
-    <a href="<?= $album->url() ?>">
-      <figure>
-        <?php
-        /*
-          The `cover()` method defined in the `album.php`
-          page model can be used everywhere across the site
-          for this type of page
-
-          We can automatically resize images to a useful
-          size with Kirby's built-in image manipulation API
-        */
-        ?>
-        <?php if ($cover = $album->cover()): ?>
-        <img src="<?= $cover->resize(1024, 1024)->url() ?>" alt="<?= $cover->alt()->esc() ?>">
-        <?php endif ?>
-        <figcaption>
-          <span>
-            <span class="example-name"><?= $album->title()->esc() ?></span>
-          </span>
-        </figcaption>
-      </figure>
-    </a>
-  </li>
-  <?php endforeach ?>
+<ul class="picto-selection-produits">
+  <li><img src="assets/icons/picto-local.png" alt="picto local"></li>
+  <li><img src="assets/icons/picto-bio.png" alt="picto bio"></li>
+  <li><img src="assets/icons/picto-saison.png" alt="picto saison"></li>
+  <li><img src="assets/icons/picto-emballage.png" alt="picto emballage"></li>
+  <li><img src="assets/icons/picto-humain.png" alt="picto humain"></li>
 </ul>
-<?php endif ?>
+
+<h3>
+  <?= $page->titre_communaute() ?>
+</h3>
+
+<p>
+  <?= $page->c_est_quoi_3() ?>
+</p>
+
+<img src="assets/images/illustration-chariot.png" alt="une illustration avec le chariot rempli de bons produits et de symobles de nos valeurs: plantes, oiseaux, jardinage, vélo...">
+
+<div class="button-container">
+  <a class="button" href="">L'association</a>
+</div>
+
+<h3>
+  <?= $page->titre_engagements() ?>
+</h3>
+
+<?= $page->c_est_quoi_4() ?>
+
+<img src="assets/images/photo-magasin-2.png" alt="une autre photo du magasin">
+
+<div class="button-container">
+  <a class="button" href="">Le Magasin</a>
+</div>
+
+<h3>
+  <?= $page->titre_pour_tous() ?>
+</h3>
+
+<p>
+  <?= $page->c_est_pour_qui() ?>
+</p>
+
+<div class="button-container">
+  <a class="button" href="">Je participe à une réunion d'information</a>
+</div>
+
+<p>
+  <?= $page->comment_ca_marche_1() ?>
+</p>
+
+<ol>
+  <li>
+    <?= $page->devenir_cooperateur_etape_1() ?>
+  </li>
+  <li>
+    <?= $page->devenir_cooperateur_etape_2() ?>
+  </li>
+  <li>
+    <?= $page->devenir_cooperateur_etape_3() ?>
+  </li>
+</ol>
+
+<p>
+  <?= $page->comment_ca_marche_2() ?>
+</p>
+
+<p>
+  <?= $page->comment_ca_marche_3() ?>
+</p>
+
+<div class="button-container">
+  <a class="button" href="">Je deviens coopérateur</a>
+</div>
+
+<img src="assets/images/illustration-devenir-cooperateur.png" alt="une autre photo du magasin">
 
 <?php snippet('footer') ?>
