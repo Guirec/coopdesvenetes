@@ -70,7 +70,7 @@
 <?= $page->file($page->image_filename_2()) ?>
 
 <div class="button-container">
-  <a class="button" href="">L'association</a>
+  <a class="button" href=""><?= $page->button_name_1() ?></a>
 </div>
 
 <h3>
@@ -82,11 +82,11 @@
 <img src="assets/images/photo-magasin-2.png" alt="une autre photo du magasin">
 
 <div class="button-container">
-  <a class="button" href="">Le Magasin</a>
+  <a class="button" href=""><?= $page->button_name_2() ?></a>
 </div>
 
 <h3>
-  <?= $page->titre_pour_tous() ?>
+  <?= $page->titre_pour_qui() ?>
 </h3>
 
 <p>
@@ -94,7 +94,7 @@
 </p>
 
 <div class="button-container">
-  <a class="button" href="">Je participe à une réunion d'information</a>
+  <a class="button" href=""><?= $page->button_name_3() ?></a>
 </div>
 
 <h3>
@@ -103,6 +103,9 @@
 <p>
   <?= $page->comment_ca_marche_1() ?>
 </p>
+
+
+<!-- <?= $page->steps() ?> -->
 
 <ol>
   <li>
@@ -125,7 +128,7 @@
 </p>
 
 <div class="button-container">
-  <a class="button" href="">Je deviens coopérateur</a>
+  <a class="button" href=""><?= $page->button_name_4() ?></a>
 </div>
 
 <img src="assets/images/illustration-devenir-cooperateur.png" alt="une autre photo du magasin">

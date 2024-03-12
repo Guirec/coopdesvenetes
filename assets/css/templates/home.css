@@ -110,3 +110,8 @@ p {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+ol li {
+  list-style: symbols;
+  margin-left: 3rem;
+}

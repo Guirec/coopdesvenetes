@@ -10,96 +10,106 @@ Subheadline: Le site web de la Coop des Vénètes
 
 ----
 
-c_est_quoi_1:
-La Coop des Vénètes est un magasin coopératif, participatif et différent! Le magasin, c’est vous, c’est nous: c’est l’ensemble des coopérateurs adhérents au projet.
+Intro: La Coop des Vénètes est un magasin coopératif, participatif et différent! Le magasin, c’est vous, c’est nous: c’est l’ensemble des coopérateurs adhérents au projet.
 
 ----
 
-image_filename_1: photo-magasin.png
+Titre-magasin: Un magasin avec des produits de qualité à marges réduites proche de Vannes (au Poulfanc à Séné)
 
 ----
 
-titre_magasin: Un magasin avec des produits de qualité à marges réduites proche de Vannes (au Poulfanc à Séné)
+C-est-quoi-1:
 
-----
-
-c_est_quoi_2:
 La Coop des Vénètes propose une offre de produits de qualité, respectueuse des hommes et de l’environnement à des tarifs très avantageux  grâce à des marges réduites.
 Nous sélectionnons nos produits selon certains critères de bon sens: locaux, souvent bios (tous les fruits et légumes) et de saison, avec le moins d’emballage possible, fabriqués par des gens qui ont à cœur de proposer bons produits fabriqués dans de bonnes conditions.
 
 ----
 
-titre_communaute:
-Une communauté chaleureuse et engagée
+Titre-communaute: Une communauté chaleureuse et engagée
 
 ----
 
-c_est_quoi_3:
-La Coop des Vénètes, ce n’est pas qu’un lieu pour faire ses courses. C’est aussi un lieu d’échange et de partage: ensemble nous tissons des liens entre coopérateurs et entre associations du territoire qui défendent les mêmes valeurs et prônent une autre façon de consommer, de vivre… de transitionner!
+C-est-quoi-2: La Coop des Vénètes, ce n’est pas qu’un lieu pour faire ses courses. C’est aussi un lieu d’échange et de partage: ensemble nous tissons des liens entre coopérateurs et entre associations du territoire qui défendent les mêmes valeurs et prônent une autre façon de consommer, de vivre… de transitionner!
 
 ----
 
-image_filename_2: illustration-chariot.png
+Button-name-1: L'association
 
 ----
 
-titre_engagements: Des engagements qui font sens pour transitionner ensemble
+Titre-engagements: Des engagements qui font sens pour transitionner ensemble
 
 ----
 
-c_est_quoi_4:
-Nous nous engageons à proposer une offre différente, en marge de la grande distribution, car notre objectif premier c’est une consommation respectueuse, raisonnée, dans la convivialité.
+C-est-quoi-3: Nous nous engageons à proposer une offre différente, en marge de la grande distribution, car notre objectif premier c’est une consommation respectueuse, raisonnée, dans la convivialité.
 
 ----
 
-titre_pour_tous:
-La Coop des Vénètes est ouverte à tous!
+Button-name-2: Le magasin
 
 ----
 
-c_est_pour_qui:
-Et oui… tout le monde peut devenir coopérateur. Que vous soyez étudiant, en coloc, seul, en famille, retraité… vous pouvez nous rejoindre! Une seule condition: pouvoir participer bénévolement et à raison de 3 heures par mois au fonctionnement du magasin et être séduit par la principe et les valeurs de ce magasin atypique.
+Titre-pour-qui: La Coop des Vénètes est ouverte à tous!
 
 ----
 
-titre_fonctionnement: Comment ça marche?
-
-
-----
-
-comment_ca_marche_1:
-Pour être coopérateur et faire ses courses à la Coop des Vénètes, c’est très simple:
-
+C-est-pour-qui: Et oui… tout le monde peut devenir coopérateur. Que vous soyez étudiant, en coloc, seul, en famille, retraité… vous pouvez nous rejoindre! Une seule condition: pouvoir participer bénévolement et à raison de 3 heures par mois au fonctionnement du magasin et être séduit par la principe et les valeurs de ce magasin atypique.
 
 ----
 
-devenir_cooperateur_etape_1: Vous adhérez à l’association : 5€ par an
+Button-name-3: Je participe à une réunion d'information
 
 ----
 
-devenir_cooperateur_etape_2: Vous souscrivez au fonctionnement du magasin: 100€ (une seule fois) ou 25€ si c’est plus simple pour moi (on est solidaires).
+Titre-fonctionnement: Comment ça marche?
 
 ----
 
-devenir_cooperateur_etape_3: Vous êtes bénévole dans le magasin 3h par mois. Par exemple vous apprenez à tenir la caisse, couper le fromage, achalander les rayons… Il est aussi possible de réaliser son créneau depuis son domicile si vos compétences et les besoins du magasin le permettent (tâches administratives, comptabilité, communication par exemple).
+Comment-ca-marche-1: Pour être coopérateur et faire ses courses à la Coop des Vénètes, c’est très simple:
 
 ----
 
-comment_ca_marche_2:
-Cela vous permet de faire vos courses à la Coop aussi souvent que vous le souhaitez pour vous-même et pour les personnes avec lesquelles vous vivez.
+Devenir-cooperateur-etape-1: Vous adhérez à l’association : 5€ par an
 
 ----
 
-comment_ca_marche_3:
-Le magasin est également ouvert à tous les non coopérants pour leur faire découvrir le magasin deux fois sans engagement.
+Devenir-cooperateur-etape-2: Vous souscrivez au fonctionnement du magasin: 100€ (une seule fois) ou 25€ si c’est plus simple pour moi (on est solidaires).
 
 ----
 
-localisation:
+Devenir-cooperateur-etape-3: Vous êtes bénévole dans le magasin 3h par mois. Par exemple vous apprenez à tenir la caisse, couper le fromage, achalander les rayons… Il est aussi possible de réaliser son créneau depuis son domicile si vos compétences et les besoins du magasin le permettent (tâches administratives, comptabilité, communication par exemple).
 
 ----
 
-horaires:
+Comment-ca-marche-2: Cela vous permet de faire vos courses à la Coop aussi souvent que vous le souhaitez pour vous-même et pour les personnes avec lesquelles vous vivez.
+
+----
+
+Comment-ca-marche-3: Le magasin est également ouvert à tous les non coopérants pour leur faire découvrir le magasin deux fois sans engagement.
+
+----
+
+Steps: <ul><li>Vous adhérez à l’association : 5€ par an</li><li>Vous souscrivez au fonctionnement du magasin: 100€ (une seule fois) ou 25€ si c’est plus simple pour moi (on est solidaires).</li></ul>
+
+----
+
+Image-filename-1: photo-magasin.png
+
+----
+
+Image-filename-2: illustration-chariot.png
+
+----
+
+Button-name-4: Je deviens coopérateur
+
+----
+
+Localisation: 
+
+----
+
+Horaires: 
 
 ----
 

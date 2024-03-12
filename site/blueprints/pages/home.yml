@@ -11,8 +11,10 @@ options:
   changeStatus: false
 
 # on the left column we define a form to update text fields
-sections:
-  content_1:
+tabs:
+
+  part_0:
+    label: Titre
     type: fields
     fields:
       headline:
@@ -21,42 +23,94 @@ sections:
       subheadline:
         type: text
         width: 1/2
-      c_est_quoi_1:
-        label: C'est quoi? (1ère partie)
-        type: textarea
-  image_1:
-    type: files
-    filename: {{ image_filename_1 }}
-  content_2:
+
+  part_1:
+    label: 1. C'est quoi?
+    columns:
+
+      intro:
+        width: 1/1
+        type: fields
+        fields:
+          intro:
+            label: Intro
+            type: textarea
+            label: Intro
+      # image_1:
+      #   label: Photo magasin
+      #   type: files
+      #   filename: {{ image_filename_1 }}
+
+      magasin:
+        width: 1/3
+        type: fields
+        fields:
+          titre_magasin:
+            label: Titre "magasin"
+            type: text
+          c_est_quoi_1:
+            label: Texte "magasin"
+            type: textarea
+      # pictos:
+      #   type: files
+      #   layout: cards
+
+      communaute:
+        width: 1/3
+        type: fields
+        fields:
+          titre_communaute:
+            label: Titre "communauté"
+            type: text
+          c_est_quoi_2:
+            label: Texte "communauté"
+            type: textarea
+          button_name_1:
+            label: Texte bouton "communauté"
+            type: text
+
+      engagement:
+        width: 1/3
+        type: fields
+        fields:
+          titre_engagements:
+            label: Titre "engagements"
+            type: text
+          c_est_quoi_3:
+            label: Texte "engagements"
+            type: textarea
+          button_name_2:
+            label: Texte bouton "engagements"
+            type: text
+
+  part_2:
+    label: 2. C'est pour qui?
     type: fields
     fields:
-      c_est_quoi_2:
-        label: C'est quoi? (2ème partie)
-        type: textarea
-  pictos:
-    type: files
-    layout: cards
-  content_3:
-    type: fields
-    fields:
-      titre_communaute:
-        label: Titre "une communauté..."
-        type: text
-      c_est_quoi_3:
-        label: C'est quoi? (3ème partie)
-        type: textarea
-      c_est_quoi_4:
-        label: C'est quoi? (4ème partie)
-        type: textarea
-      titre_pour_tous:
-        label: Titre "La Coop, c'est pour qui?"
+      titre_pour_qui:
+        label: Titre "pour qui"
         type: text
       c_est_pour_qui:
-        label: C'est pour qui?
+        label: Texte "pour qui"
         type: textarea
+      button_name_3:
+        label: Texte bouton "pour qui"
+        type: text
+
+  part_3:
+    label: 3. Comment ça marche?
+    type: fields
+    fields:
+      titre_fonctionnement:
+        label: Titre
+        type: text
       comment_ca_marche_1:
         label: Comment ça marche? (1ère partie)
         type: textarea
+      # steps:
+      #   label: Étapes pour devenir coopérateur.ice
+      #   type: list
+      #   nodes: orderedList
       devenir_cooperateur_etape_1:
         label: Devenir coopérateur (1ère étape)
         type: textarea

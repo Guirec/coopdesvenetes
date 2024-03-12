@@ -1,13 +1,17 @@
-alt: une photo dans le magasin avec des humains et des produits
+Alt: une photo dans le magasin avec des humains et des produits
 
 ----
 
-caption: Photo du magasin avec des coopérateurs.ices
+Caption: Photo du magasin avec des coopérateurs.ices
 
 ----
 
-photographer: tbd
+Photographer: tbd
 
 ----
 
-license: tbd
+License: tbd
+
+----
+
+Uuid: Vf1xmVohOedBYf64
