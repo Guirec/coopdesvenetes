@@ -35,6 +35,10 @@
 
 <?= $page->file($page->image_filename_1()) ?>
 
+<h3>
+  <?= $page->titre_magasin() ?>
+</h3>
+
 <p>
   <?= $page->c_est_quoi_2() ?>
 </p>
@@ -93,6 +97,9 @@
   <a class="button" href="">Je participe à une réunion d'information</a>
 </div>
 
+<h3>
+  <?= $page->titre_fonctionnement() ?>
+</h3>
 <p>
   <?= $page->comment_ca_marche_1() ?>
 </p>
