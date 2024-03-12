@@ -19,6 +19,10 @@ image_filename_1: photo-magasin.png
 
 ----
 
+titre_magasin: Un magasin avec des produits de qualité à marges réduites proche de Vannes (au Poulfanc à Séné)
+
+----
+
 c_est_quoi_2:
 La Coop des Vénètes propose une offre de produits de qualité, respectueuse des hommes et de l’environnement à des tarifs très avantageux  grâce à des marges réduites.
 Nous sélectionnons nos produits selon certains critères de bon sens: locaux, souvent bios (tous les fruits et légumes) et de saison, avec le moins d’emballage possible, fabriqués par des gens qui ont à cœur de proposer bons produits fabriqués dans de bonnes conditions.
@@ -55,6 +59,11 @@ La Coop des Vénètes est ouverte à tous!
 
 c_est_pour_qui:
 Et oui… tout le monde peut devenir coopérateur. Que vous soyez étudiant, en coloc, seul, en famille, retraité… vous pouvez nous rejoindre! Une seule condition: pouvoir participer bénévolement et à raison de 3 heures par mois au fonctionnement du magasin et être séduit par la principe et les valeurs de ce magasin atypique.
+
+----
+
+titre_fonctionnement: Comment ça marche?
+
 
 ----
 
