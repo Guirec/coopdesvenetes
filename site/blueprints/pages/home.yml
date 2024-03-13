@@ -11,9 +11,12 @@ options:
   changeStatus: false
 
 # on the left column we define a form to update text fields
+
+
 tabs:
 
   part_0:
+    icon: text
     label: Titre
     type: fields
     fields:
@@ -25,24 +28,22 @@ tabs:
         width: 1/2
 
   part_1:
+    icon: document
     label: 1. C'est quoi?
-    columns:
-
+    sections:
       intro:
-        width: 1/1
         type: fields
         fields:
           intro:
             label: Intro
             type: textarea
-            label: Intro
-      # image_1:
-      #   label: Photo magasin
-      #   type: files
-      #   filename: {{ image_filename_1 }}
+      image:
+        type: files
+        multiple: false
+        label: Photo intro
+        filename: {{ image_filename_1 }}
 
       magasin:
-        width: 1/3
         type: fields
         fields:
           titre_magasin:
@@ -51,12 +52,16 @@ tabs:
           c_est_quoi_1:
             label: Texte "magasin"
             type: textarea
-      # pictos:
-      #   type: files
-      #   layout: cards
+
+      gallery:
+        label: Pictos
+        type: files
+        layout: cardlets
+        max: 6
+        empty: Pas de picto
+        parent: page.find("pictos")
 
       communaute:
-        width: 1/3
         type: fields
         fields:
           titre_communaute:
@@ -70,7 +75,6 @@ tabs:
             type: text
 
       engagement:
-        width: 1/3
         type: fields
         fields:
           titre_engagements:
@@ -84,6 +88,7 @@ tabs:
             type: text
 
   part_2:
+    icon: document
     label: 2. C'est pour qui?
     type: fields
     fields:
@@ -98,31 +103,48 @@ tabs:
         type: text
 
   part_3:
+    icon: document
     label: 3. Comment ça marche?
-    type: fields
-    fields:
-      titre_fonctionnement:
-        label: Titre
-        type: text
-      comment_ca_marche_1:
-        label: Comment ça marche? (1ère partie)
-        type: textarea
-      # steps:
-      #   label: Étapes pour devenir coopérateur.ice
-      #   type: list
-      #   nodes: orderedList
-      devenir_cooperateur_etape_1:
-        label: Devenir coopérateur (1ère étape)
-        type: textarea
-      devenir_cooperateur_etape_2:
-        label: Devenir coopérateur (2ème étape)
-        type: textarea
-      devenir_cooperateur_etape_3:
-        label: Devenir coopérateur (3ème étape)
-        type: textarea
-      comment_ca_marche_2:
-        label: Comment ça marche? (2ème partie)
-        type: textarea
-      comment_ca_marche_3:
-        label: Comment ça marche? (3ème partie)
-        type: textarea
+
+    columns:
+      titre:
+        width: 1/1
+        type: fields
+        fields:
+          titre_fonctionnement:
+            label: Titre
+            type: text
+      left:
+        width: 1/3
+        type: fields
+        fields:
+          comment_ca_marche_1:
+            label: Comment ça marche? (1ère partie)
+            type: textarea
+      right:
+        width: 2/3
+        type: fields
+        label: 3 étapes
+        fields:
+          devenir_cooperateur_etape_1:
+            label: Étape 1/3
+            type: textarea
+          devenir_cooperateur_etape_2:
+            label: Étape 2/3
+            type: textarea
+          devenir_cooperateur_etape_3:
+            label: Étape 3/3
+            type: textarea
+      bottom:
+        width: 1/1
+        type: fields
+        fields:
+          comment_ca_marche_2:
+            label: Comment ça marche? (2ème partie)
+            type: textarea
+          comment_ca_marche_3:
+            label: Comment ça marche? (3ème partie)
+            type: textarea
+          button_name_4:
+            label: Texte bouton "comment ça marche"
+            type: text

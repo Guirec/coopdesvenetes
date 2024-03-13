@@ -30,8 +30,10 @@
 ?>
 
 <p>
-  <?= $page->c_est_quoi_1() ?>
+  <?= $page->intro() ?>
 </p>
+
+
 
 <?= $page->file($page->image_filename_1()) ?>
 
@@ -40,15 +42,17 @@
 </h3>
 
 <p>
-  <?= $page->c_est_quoi_2() ?>
+  <?= $page->c_est_quoi_1() ?>
 </p>
+
+
 
 <ul class="picto-selection-produits">
   <?php foreach($page->find('pictos')->images() as $file): ?>
     <li>
       <?= $file ?>
     </li>
-  <?php endforeach ?>
+    <?php endforeach ?>
 </ul>
 
 <!-- <ul class="picto-selection-produits">
@@ -64,7 +68,7 @@
 </h3>
 
 <p>
-  <?= $page->c_est_quoi_3() ?>
+  <?= $page->c_est_quoi_2() ?>
 </p>
 
 <?= $page->file($page->image_filename_2()) ?>
@@ -77,7 +81,9 @@
   <?= $page->titre_engagements() ?>
 </h3>
 
-<?= $page->c_est_quoi_4() ?>
+<p>
+  <?= $page->c_est_quoi_3() ?>
+</p>
 
 <img src="assets/images/photo-magasin-2.png" alt="une autre photo du magasin">
 
