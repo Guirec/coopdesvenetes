@@ -22,7 +22,6 @@
 ?>
 <?php snippet('header') ?>
 <?php snippet('intro') ?>
-<?php snippet('layouts', ['field' => $page->layout()])  ?>
 
 <aside class="contact">
   <h2 class="h1">Get in contact</h2>
