@@ -109,6 +109,10 @@ Cooperator-image-filename: illustration-devenir-cooperateur.png
 
 ----
 
+Cooperator-image-filename: illustration-devenir-cooperateur.png
+
+----
+
 Localisation:
 
 ----
