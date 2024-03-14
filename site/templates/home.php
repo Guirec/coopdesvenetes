@@ -33,21 +33,15 @@
   <?= $page->intro() ?>
 </p>
 
-
-
-<?= $page->file($page->image_filename_1()) ?>
-
 <h3>
-  <?= $page->titre_magasin() ?>
+  <?= $page->shop_title() ?>
 </h3>
 
 <p>
-  <?= $page->c_est_quoi_1() ?>
+  <?= $page->shop_text() ?>
 </p>
 
-
-
-<ul class="picto-selection-produits">
+<ul class="shop-icons">
   <?php foreach($page->find('shop_icons')->images() as $file): ?>
     <li>
       <?= $file ?>
@@ -55,88 +49,78 @@
     <?php endforeach ?>
 </ul>
 
-<!-- <ul class="picto-selection-produits">
-  <li><img src="assets/icons/picto-local.png" alt="picto local"></li>
-  <li><img src="assets/icons/picto-bio.png" alt="picto bio"></li>
-  <li><img src="assets/icons/picto-saison.png" alt="picto saison"></li>
-  <li><img src="assets/icons/picto-emballage.png" alt="picto emballage"></li>
-  <li><img src="assets/icons/picto-humain.png" alt="picto humain"></li>
-</ul> -->
-
 <h3>
-  <?= $page->titre_communaute() ?>
+  <?= $page->community_title() ?>
 </h3>
 
 <p>
-  <?= $page->c_est_quoi_2() ?>
+  <?= $page->community_text() ?>
 </p>
 
-<?= $page->file($page->image_filename_2()) ?>
+<?= $page->file($page->community_image_filename()) ?>
 
 <div class="button-container">
-  <a class="button" href=""><?= $page->button_name_1() ?></a>
+  <a class="button" href=""><?= $page->community_button_name() ?></a>
 </div>
 
 <h3>
-  <?= $page->titre_engagements() ?>
+  <?= $page->commitment_title() ?>
 </h3>
 
 <p>
-  <?= $page->c_est_quoi_3() ?>
+  <?= $page->community_text() ?>
 </p>
 
-<img src="assets/images/photo-magasin-2.png" alt="une autre photo du magasin">
+<?= $page->file($page->commitment_image_filename()) ?>
 
 <div class="button-container">
-  <a class="button" href=""><?= $page->button_name_2() ?></a>
+  <a class="button" href=""><?= $page->community_button_name() ?></a>
 </div>
 
 <h3>
-  <?= $page->titre_pour_qui() ?>
+  <?= $page->for_who_title() ?>
 </h3>
 
 <p>
-  <?= $page->c_est_pour_qui() ?>
+  <?= $page->for_who_text() ?>
 </p>
 
 <div class="button-container">
-  <a class="button" href=""><?= $page->button_name_3() ?></a>
+  <a class="button" href=""><?= $page->for_who_button_name() ?></a>
 </div>
 
 <h3>
-  <?= $page->titre_fonctionnement() ?>
+  <?= $page->cooperator_title() ?>
 </h3>
 <p>
-  <?= $page->comment_ca_marche_1() ?>
+  <?= $page->cooperator_start_text() ?>
 </p>
-
-
-<!-- <?= $page->steps() ?> -->
 
 <ol>
   <li>
-    <?= $page->devenir_cooperateur_etape_1() ?>
+    <?= $page->cooperator_step_1() ?>
   </li>
   <li>
-    <?= $page->devenir_cooperateur_etape_2() ?>
+    <?= $page->cooperator_step_2() ?>
   </li>
   <li>
-    <?= $page->devenir_cooperateur_etape_3() ?>
+    <?= $page->cooperator_step_3() ?>
   </li>
 </ol>
 
 <p>
-  <?= $page->comment_ca_marche_2() ?>
+  <?= $page->cooperator_middle_text() ?>
 </p>
 
 <p>
-  <?= $page->comment_ca_marche_3() ?>
+  <?= $page->cooperator_end_text() ?>
 </p>
 
+
 <div class="button-container">
-  <a class="button" href=""><?= $page->button_name_4() ?></a>
+  <a class="button" href=""><?= $page->cooperator_button_name() ?></a>
 </div>
 
-<img src="assets/images/illustration-devenir-cooperateur.png" alt="une autre photo du magasin">
+<?= $page->file($page->cooperator_image_filename()) ?>
 
 <?= snippet('footer') ?>
