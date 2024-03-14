@@ -48,7 +48,7 @@
 
 
 <ul class="picto-selection-produits">
-  <?php foreach($page->find('pictos')->images() as $file): ?>
+  <?php foreach($page->find('shop_icons')->images() as $file): ?>
     <li>
       <?= $file ?>
     </li>

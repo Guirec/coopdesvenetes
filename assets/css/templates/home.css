@@ -70,8 +70,7 @@
     padding-bottom: 52.65%;
   }
 }
-
-.picto-selection-produits {
+.shop-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,6 +80,7 @@ h3 {
   font-style: italic;
   font-weight: bold;
   margin-top: 1rem;
+  font-size: larger;
 }
 
 .button-container {
