@@ -14,4 +14,8 @@ License: tbd
 
 ----
 
+Template: image
+
+----
+
 Uuid: Vf1xmVohOedBYf64

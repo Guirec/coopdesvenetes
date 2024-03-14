@@ -33,6 +33,8 @@
   <?= $page->intro() ?>
 </p>
 
+<?= $page->file($page->intro_image_filename()) ?>
+
 <h3>
   <?= $page->shop_title() ?>
 </h3>

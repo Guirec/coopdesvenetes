@@ -1,0 +1,17 @@
+Alt: Une photo du magasin de,la Coop des Vénètes
+
+----
+
+Caption: Photo du magasin
+
+----
+
+Photographer: tbd
+
+----
+
+License: tbd
+
+----
+
+Template: image
