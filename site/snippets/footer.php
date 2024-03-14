@@ -13,10 +13,20 @@
 
   <footer class="footer">
     <div class="grid">
-      <div class="column" style="--columns: 8">
-        <h2><a href="https://getkirby.com">Made with Kirby</a></h2>
+      <div class="column" style="--columns: 2">
+        <h2>Restez informés grâce à la feuille de chou</h2>
         <p>
-          Kirby: the file-based CMS that adapts to any project, loved by developers and editors alike
+          formulaire d'abonnement à la newsletter
+        </p>
+      </div>
+
+      <div class="column" style="--columns: 5">
+        <?php snippet('horaires') ?>
+        <br>
+        <h2>Infos aux livreur·euse·s</h2>
+        <img src="assets/icons/picto-livraison.png" alt="picto camion de livraison" style="width: 50px">
+        <p>
+          Horaires de livraison : du lundi au samedi de 9h30 à 12h30
         </p>
       </div>
       <div class="column" style="--columns: 2">
@@ -27,15 +37,15 @@
           <?php endforeach ?>
         </ul>
       </div>
-      <div class="column" style="--columns: 2">
-        <h2>Kirby</h2>
-        <ul>
-          <li><a href="https://getkirby.com">Website</a></li>
-          <li><a href="https://getkirby.com/docs">Docs</a></li>
-          <li><a href="https://forum.getkirby.com">Forum</a></li>
-          <li><a href="https://chat.getkirby.com">Chat</a></li>
-          <li><a href="https://github.com/getkirby">GitHub</a></li>
-        </ul>
+      <div class="column" style="--columns: 3">
+        <h2>Nous trouver</h2>
+        <img src="assets/images/plan-300x112.png" alt="plan d'accès à la Coop" style="width: 300px">
+        <p>
+          Adresse: 3 rue de Lorraine 56860 Séné
+        </p>
+        <p>
+          Tel:  02 90 73 89 72
+        </p>
       </div>
     </div>
   </footer>

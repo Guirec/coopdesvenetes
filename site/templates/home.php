@@ -19,43 +19,110 @@
 */
 
 ?>
-<?php snippet('header') ?>
-  <?php snippet('intro') ?>
-  <?php
+<?= snippet('header') ?>
+<?= snippet('intro') ?>
+<?php
   /*
     We always use an if-statement to check if a page exists to
     prevent errors in case the page was deleted or renamed before
     we call a method like `children()` in this case
   */
-  ?>
-  <?php if ($photographyPage = page('photography')): ?>
-  <ul class="home-grid">
-    <?php foreach ($photographyPage->children()->listed() as $album): ?>
-    <li>
-      <a href="<?= $album->url() ?>">
-        <figure>
-          <?php
-          /*
-            The `cover()` method defined in the `album.php`
-            page model can be used everywhere across the site
-            for this type of page
+?>
 
-            We can automatically resize images to a useful
-            size with Kirby's built-in image manipulation API
-          */
-          ?>
-          <?php if ($cover = $album->cover()): ?>
-          <img src="<?= $cover->resize(1024, 1024)->url() ?>" alt="<?= $cover->alt()->esc() ?>">
-          <?php endif ?>
-          <figcaption>
-            <span>
-              <span class="example-name"><?= $album->title()->esc() ?></span>
-            </span>
-          </figcaption>
-        </figure>
-      </a>
+<p>
+  <?= $page->intro() ?>
+</p>
+
+<?= $page->file($page->intro_image_filename()) ?>
+
+<h3>
+  <?= $page->shop_title() ?>
+</h3>
+
+<p>
+  <?= $page->shop_text() ?>
+</p>
+
+<ul class="shop-icons">
+  <?php foreach($page->find('shop_icons')->images() as $file): ?>
+    <li>
+      <?= $file ?>
     </li>
     <?php endforeach ?>
-  </ul>
-  <?php endif ?>
-<?php snippet('footer') ?>
+</ul>
+
+<h3>
+  <?= $page->community_title() ?>
+</h3>
+
+<p>
+  <?= $page->community_text() ?>
+</p>
+
+<?= $page->file($page->community_image_filename()) ?>
+
+<div class="button-container">
+  <a class="button" href=""><?= $page->community_button_name() ?></a>
+</div>
+
+<h3>
+  <?= $page->commitment_title() ?>
+</h3>
+
+<p>
+  <?= $page->community_text() ?>
+</p>
+
+<?= $page->file($page->commitment_image_filename()) ?>
+
+<div class="button-container">
+  <a class="button" href=""><?= $page->community_button_name() ?></a>
+</div>
+
+<h3>
+  <?= $page->for_who_title() ?>
+</h3>
+
+<p>
+  <?= $page->for_who_text() ?>
+</p>
+
+<div class="button-container">
+  <a class="button" href=""><?= $page->for_who_button_name() ?></a>
+</div>
+
+<h3>
+  <?= $page->cooperator_title() ?>
+</h3>
+<p>
+  <?= $page->cooperator_start_text() ?>
+</p>
+
+<ol>
+  <li>
+    <?= $page->cooperator_step_1() ?>
+  </li>
+  <li>
+    <?= $page->cooperator_step_2() ?>
+  </li>
+  <li>
+    <?= $page->cooperator_step_3() ?>
+  </li>
+</ol>
+
+<p>
+  <?= $page->cooperator_middle_text() ?>
+</p>
+
+<p>
+  <?= $page->cooperator_end_text() ?>
+</p>
+
+
+<div class="button-container">
+  <a class="button" href=""><?= $page->cooperator_button_name() ?></a>
+</div>
+
+<?= $page->file($page->cooperator_image_filename()) ?>
+
+<?= snippet('footer') ?>

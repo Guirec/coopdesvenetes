@@ -10,25 +10,183 @@ icon: 🏠
 options:
   changeStatus: false
 
-# Here we define an info section and a pages section (`photography`)
-sections:
-  content:
+# on the left column we define a form to update text fields
+
+
+tabs:
+
+  part_0:
+    icon: text
+    label: Titre
     type: fields
     fields:
       headline:
         type: text
         width: 1/2
-      gap:
-        width: 1/2
       subheadline:
         type: text
         width: 1/2
 
-  # The photography section extends a pages section defined in the `/site/blueprints/section/album.yml` blueprint
-  # More about reusing and extending sections: https://getkirby.com/docs/guide/blueprints/extending-blueprints#reusing-and-extending-sectionss
-  photography:
-    label: Photography
-    extends: sections/albums
-    status: listed
-    size: small
-    help: All projects for the homepage are being pulled from the photography page.
+  part_1:
+    icon: document
+    label: 1. C'est quoi?
+    sections:
+      intro_fields:
+        type: fields
+        fields:
+          intro_section_title:
+            label: Introduction
+            type: headline
+          intro:
+            label: Intro
+            type: textarea
+      intro_image:
+        type: files
+        label: Photo intro
+        multiple: false
+        # uploads:
+        #   parent: page
+        filename: {{ intro_image_filename }}
+
+      shop_fields:
+        type: fields
+        fields:
+          shop_section_title:
+              label: Le Magasin
+              type: headline
+          shop_title:
+            label: Titre "magasin"
+            type: text
+          shop_text:
+            label: Texte "magasin"
+            type: textarea
+      shop_images:
+        label: Pictos
+        type: files
+        layout: cardlets
+        max: 6
+        empty: Pas de picto
+        parent: page.find("shop_icons")
+
+      community_fields:
+        type: fields
+        fields:
+          community_section_title:
+              label: Communauté
+              type: headline
+          community_title:
+            label: Titre "communauté"
+            type: text
+          community_text:
+            label: Texte "communauté"
+            type: textarea
+          community_button_name:
+            label: Texte bouton "communauté"
+            type: text
+      community_image:
+        type: files
+        multiple: false
+        label: Photo section "communauté"
+        filename: {{ community_image_filename }}
+
+      commitment_start:
+        type: fields
+        fields:
+          commitment_section_title:
+              label: Engagement
+              type: headline
+          commitment_title:
+            label: Titre "engagement"
+            type: text
+          commitment_text:
+            label: Texte "engagement"
+            type: textarea
+      commitment_image:
+        type: files
+        multiple: false
+        label: Photo section "engagement"
+        filename: {{ commitment_image_filename }}
+      commitment_end:
+        type: fields
+        fields:
+          commitment_button_name:
+            label: Texte bouton "engagement"
+            type: text
+
+  part_2:
+    icon: document
+    label: 2. C'est pour qui?
+    type: fields
+    fields:
+      for_who_title:
+        label: Titre "pour qui"
+        type: text
+      for_who_text:
+        label: Texte "pour qui"
+        type: textarea
+      for_who_button_name:
+        label: Texte bouton "pour qui"
+        type: text
+
+  part_3:
+    icon: document
+    label: 3. Comment ça marche?
+
+    columns:
+      top:
+        width: 1/1
+        type: fields
+        fields:
+          cooperator_title:
+            label: Titre
+            type: text
+      left:
+        width: 1/2
+        type: fields
+        fields:
+          cooperator_start_section_title:
+            label: Texte du début
+            type: headline
+          cooperator_start_text:
+            label: Comment ça marche? (1ère partie)
+            type: textarea
+      right:
+        width: 1/2
+        type: fields
+        label: 3 étapes
+        fields:
+          cooperator_steps_section_title:
+            label: Les 3 étapes pour devenir coopérateur·ice
+            type: headline
+          cooperator_step_1:
+            label: Étape 1/3
+            type: textarea
+          cooperator_step_2:
+            label: Étape 2/3
+            type: textarea
+          cooperator_step_3:
+            label: Étape 3/3
+            type: textarea
+      bottom:
+        width: 1/1
+        sections:
+          text:
+            type: fields
+            fields:
+              cooperator_end_section_title:
+                label: Bloc de fin
+                type: headline
+              cooperator_middle_text:
+                label: Comment ça marche? (2ème partie)
+                type: textarea
+              cooperator_end_text:
+                label: Comment ça marche? (3ème partie)
+                type: textarea
+              cooperator_button_name:
+                label: Texte bouton "comment ça marche"
+                type: text
+          cooperator_image:
+            type: files
+            multiple: false
+            label: Photo "comment ça marche?"
+            filename: {{ cooperator_image_filename }}
