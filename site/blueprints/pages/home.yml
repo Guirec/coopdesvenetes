@@ -43,6 +43,7 @@ tabs:
       intro_image:
         type: files
         label: Photo intro
+        layout: cards
         multiple: false
         # uploads:
         #   parent: page
@@ -190,3 +191,14 @@ tabs:
             multiple: false
             label: Photo "comment ça marche?"
             filename: {{ cooperator_image_filename }}
+
+  image_tab:
+    icon: images
+    label: Images de la home page
+    sections:
+      home_images:
+        label: Bibliothèque des images de la page Home
+        type: files
+        layout: cards
+        max: 10
+        empty: aucune image
