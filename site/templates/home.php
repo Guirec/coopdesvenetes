@@ -29,10 +29,6 @@
   */
 ?>
 
-<p>
-  <?= $page->intro() ?>
-</p>
-
 <?php foreach ($page->layout()->toLayouts() as $layout): ?>
 <section class="grid" id="<?= $layout->id() ?>">
   <?php foreach ($layout->columns() as $column): ?>
@@ -44,97 +40,5 @@
   <?php endforeach ?>
 </section>
 <?php endforeach ?>
-
-<?= $page->file($page->intro_image_filename()) ?>
-
-<h3>
-  <?= $page->shop_title() ?>
-</h3>
-
-<p>
-  <?= $page->shop_text() ?>
-</p>
-
-<ul class="shop-icons">
-  <?php foreach($page->find('shop_icons')->images() as $file): ?>
-    <li>
-      <?= $file ?>
-    </li>
-    <?php endforeach ?>
-</ul>
-
-<h3>
-  <?= $page->community_title() ?>
-</h3>
-
-<p>
-  <?= $page->community_text() ?>
-</p>
-
-<?= $page->file($page->community_image_filename()) ?>
-
-<div class="button-container">
-  <a class="button" href=""><?= $page->community_button_name() ?></a>
-</div>
-
-<h3>
-  <?= $page->commitment_title() ?>
-</h3>
-
-<p>
-  <?= $page->community_text() ?>
-</p>
-
-<?= $page->file($page->commitment_image_filename()) ?>
-
-<div class="button-container">
-  <a class="button" href=""><?= $page->community_button_name() ?></a>
-</div>
-
-<h3>
-  <?= $page->for_who_title() ?>
-</h3>
-
-<p>
-  <?= $page->for_who_text() ?>
-</p>
-
-<div class="button-container">
-  <a class="button" href=""><?= $page->for_who_button_name() ?></a>
-</div>
-
-<h3>
-  <?= $page->cooperator_title() ?>
-</h3>
-<p>
-  <?= $page->cooperator_start_text() ?>
-</p>
-
-<ol>
-  <li>
-    <?= $page->cooperator_step_1() ?>
-  </li>
-  <li>
-    <?= $page->cooperator_step_2() ?>
-  </li>
-  <li>
-    <?= $page->cooperator_step_3() ?>
-  </li>
-</ol>
-
-<p>
-  <?= $page->cooperator_middle_text() ?>
-</p>
-
-<p>
-  <?= $page->cooperator_end_text() ?>
-</p>
-
-
-<div class="button-container">
-  <a class="button" href=""><?= $page->cooperator_button_name() ?></a>
-</div>
-
-<?= $page->file($page->cooperator_image_filename()) ?>
 
 <?= snippet('footer') ?>
