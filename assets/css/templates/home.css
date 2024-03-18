@@ -97,3 +97,36 @@ ol li {
   display: flex;
   justify-content: center;
 }
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container .button {
+  border: 1px solid black;
+  border-radius: 3rem;
+  display: inline-flex;
+  padding: .5rem 3rem;
+  cursor: pointer;
+  background-color: #DEDC3A;
+  color: black;
+  font-weight: 300;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  text-align: center;
+}
+
+.button-container .button:hover {
+  opacity: 1;
+}
+
+.button-container .button:empty::after {
+  content: "Texte du bouton …";
+  color: var(--color-text-light);
+}
+.button-container .button:focus {
+  outline: 0;
+  border-color: var(--color-focus);
+}

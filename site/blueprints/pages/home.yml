@@ -51,21 +51,7 @@ tabs:
               - heading
               - text
               - list
-              button:
-                name: Button
-                icon: url
-                label: "{{ text }}"
-                fields:
-                  link:
-                    type: link
-                    label: Cible du bouton
-                    help: Choisir une page du site dans la liste
-                    options:
-                      - page
-                  text:
-                    type: text
-                    label: Texte du bouton
-                    placeholder: texte du bouton
+              - button
           media:
             label: Media
             type: group
