@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-/*
+
 .k-block-type-button button {
   border: 1px solid black;
   border-radius: 3rem;
@@ -31,4 +31,4 @@
 .k-block-type-button button:focus {
   outline: 0;
   border-color: var(--color-focus);
-} */
+}
