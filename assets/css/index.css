@@ -73,6 +73,7 @@ small {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   margin-right: -1rem;
   margin-left: -1rem;
   margin-bottom: 6rem;
@@ -84,6 +85,18 @@ small {
   align-items: center;
   font-weight: 600;
   cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .logo img {
+    width: 138px;
+  }
+}
+
+@media (max-width: 599px) {
+  .logo img {
+    width: 69px;
+  }
 }
 
 .menu {
