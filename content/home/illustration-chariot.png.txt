@@ -15,3 +15,7 @@ License: tbd
 ----
 
 Template: image
+
+----
+
+Uuid: YFOE5XIDW4OMwnqf
