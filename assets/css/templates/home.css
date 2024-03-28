@@ -98,13 +98,7 @@ ol li {
   justify-content: center;
 }
 
-.button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.button-container .button {
+button {
   border: 1px solid black;
   border-radius: 3rem;
   display: inline-flex;
@@ -116,17 +110,20 @@ ol li {
   opacity: 0.8;
   transition: opacity 0.3s ease;
   text-align: center;
+  margin-inline: auto;
+  display: block;
+  width: fit-content;
 }
 
-.button-container .button:hover {
+button:hover {
   opacity: 1;
 }
 
-.button-container .button:empty::after {
+button:empty::after {
   content: "Texte du bouton …";
   color: var(--color-text-light);
 }
-.button-container .button:focus {
+button:focus {
   outline: 0;
   border-color: var(--color-focus);
 }
