@@ -2,4 +2,8 @@ Title: L'association
 
 ----
 
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h3","text":"Une communauté chaleureuse et engagée"},"id":"3042ffee-0c1c-4eb5-9625-f3d96b2c1069","isHidden":false,"type":"heading"}],"id":"a159d4a1-fa28-41b2-9498-742dd76f160b","width":"1/1"}],"id":"a779f3e2-4580-474b-bd8c-83929fc79d71"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>La Coop des Vénètes, ce n’est pas qu’un lieu pour faire ses courses. C’est aussi un lieu d’échange et de partage: ensemble nous tissons des liens entre coopérateurs et entre associations du territoire qui défendent les mêmes valeurs et prônent une autre façon de consommer, de vivre… de transitionner!</p>"},"id":"8e6692ea-c895-4bfb-be9b-3a7f97eef57d","isHidden":false,"type":"text"}],"id":"e6e4d1d7-ba4b-457b-82aa-88d81e918188","width":"1/1"}],"id":"3ec5b3ef-faa8-4959-a381-4054a4f6ede2"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://YFOE5XIDW4OMwnqf"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"d3013fba-0838-47bb-b297-7c4e66bd4284","isHidden":false,"type":"image"}],"id":"ebce45db-dda0-457b-bf90-5247c15ae318","width":"1/1"}],"id":"620e0397-e82c-4c8a-952d-3efc7098f218"},{"attrs":[],"columns":[{"blocks":[{"content":{"link":"page://sGE35wQGAshtt2Ej","text":"Retour à la page d'accueil","class":"","id":""},"id":"8ee102e1-4e88-40e0-a8f2-8717ea845a26","isHidden":false,"type":"button"}],"id":"005cccf0-ca2d-4a4b-8e25-003b4c47b5ba","width":"1/1"}],"id":"a663a0bc-db2d-40f1-9026-22b8a8eb436a"}]
+
+----
+
 Uuid: EgfXk155nyUvqqA1

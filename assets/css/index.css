@@ -430,3 +430,20 @@ hr {
 .note-excerpt-date {
   color: var(--color-text-grey);
 }
+
+h3 {
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 1rem;
+  font-size: larger;
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+ol li {
+  list-style: symbols;
+  margin-left: 3rem;
+}

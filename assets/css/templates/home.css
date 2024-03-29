@@ -76,22 +76,7 @@
   align-items: center;
 }
 
-h3 {
-  font-style: italic;
-  font-weight: bold;
-  margin-top: 1rem;
-  font-size: larger;
-}
 
-p {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-ol li {
-  list-style: symbols;
-  margin-left: 3rem;
-}
 
 .gallery ul {
   display: flex;
