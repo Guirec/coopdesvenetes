@@ -37,6 +37,7 @@
     'assets/css/prism.css',
     'assets/css/lightbox.css',
     'assets/css/index.css',
+    'assets/css/snippets/header.css',
     '@auto'
   ]) ?>
 
@@ -52,22 +53,25 @@
 <body>
 
   <header class="header">
+    <?php
+    /*
+      We use `$site->url()` to create a link back to the homepage
+      for the logo and `$site->title()` as a temporary logo. You
+      probably want to replace this with an SVG.
+    */
+    ?>
+    <a class="logo" href="<?= $site->url() ?>">
+      <?php if ($logo = $site->file($site->logo())): ?>
+        <?= $logo ?>
+      <?php endif ?>
+    </a>
+
+    <nav class="menu">
       <?php
       /*
-        We use `$site->url()` to create a link back to the homepage
-        for the logo and `$site->title()` as a temporary logo. You
-        probably want to replace this with an SVG.
-      */
-      ?>
-      <a class="logo" href="<?= $site->url() ?>">
-        <img src="assets/images/logo_coop_des_venetes.jpg" alt="Logo Coop des Vénètes">
-      </a>
-      <nav class="menu">
-        <?php
-        /*
-          In the menu, we only fetch listed pages,
-          i.e. the pages that have a prepended number
-          in their foldername.
+        In the menu, we only fetch listed pages,
+        i.e. the pages that have a prepended number
+        in their foldername.
 
           We do not want to display links to unlisted
           `error`, `home`, or `sandbox` pages.

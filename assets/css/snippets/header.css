@@ -1,0 +1,41 @@
+.header {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: -1rem;
+  margin-left: -1rem;
+  margin-bottom: 6rem;
+}
+
+.logo {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .logo img {
+    width: 138px;
+  }
+}
+
+@media (max-width: 599px) {
+  .logo img {
+    width: 69px;
+  }
+}
+
+.menu {
+  display: flex;
+}
+.menu a {
+  padding: 1rem;
+  display: block;
+}
+.menu a[aria-current] {
+  text-decoration: underline;
+}
