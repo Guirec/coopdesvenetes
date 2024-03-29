@@ -14,7 +14,7 @@ License: tbd
 
 ----
 
-Template: image
+Template: home-image
 
 ----
 

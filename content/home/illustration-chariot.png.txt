@@ -1,4 +1,4 @@
-Alt: Une illustration avec le chariot rempli de bons produits et de symboles de nos valeurs
+Template: home-image
 
 ----
 
@@ -6,15 +6,19 @@ Caption: Chariot rempli de bons produits
 
 ----
 
+Alt: Une illustration avec le chariot rempli de bons produits et de symboles de nos valeurs
+
+----
+
 Photographer: tbd
 
 ----
 
-License: tbd
+License: 
 
 ----
 
-Template: image
+Link: 
 
 ----
 

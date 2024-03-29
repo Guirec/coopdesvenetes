@@ -16,13 +16,6 @@ columns:
       content:
         type: fields
         fields:
-          template:
-            label: template
-            type: select
-            options:
-              - home-image
-              - icon-image
-              - image
           caption:
             label: Caption
             type: textarea
@@ -33,8 +26,8 @@ columns:
         type: fields
         fields:
           alt:
-            type: text
             label: Alternative Text
+            type: text
           photographer:
             label: Photographer
             type: text
@@ -48,7 +41,7 @@ columns:
               - CC BY-SA 4.0
               - CC BY-NC 4.0
               - CC BY-ND 4.0
-              - Other
+              - Unsplash
           link:
             label: Link
             type: url

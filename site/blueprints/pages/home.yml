@@ -65,8 +65,16 @@ tabs:
     label: Images de la home page
     sections:
       home_images:
+        template: home-image
         label: Bibliothèque des images de la page Home
         type: files
         layout: cards
         max: 10
         empty: aucune image
+      icon_images:
+        template: icon-image
+        label: Pictos
+        type: files
+        layout: cards
+        max: 10
+        empty: aucun picto

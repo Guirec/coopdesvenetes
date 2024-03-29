@@ -1,4 +1,4 @@
-Alt: Une photo du magasin de,la Coop des Vénètes
+Template: home-image
 
 ----
 
@@ -6,15 +6,19 @@ Caption: Photo du magasin
 
 ----
 
+Alt: Une photo du magasin de,la Coop des Vénètes
+
+----
+
 Photographer: tbd
 
 ----
 
-License: tbd
+License: 
 
 ----
 
-Template: image
+Link: 
 
 ----
 
