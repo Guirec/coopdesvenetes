@@ -1,0 +1,7 @@
+/* Layers */
+
+@layer global, compositions, blocks, exceptions, utilities;
+
+/* Global */
+
+@import "global/reset.css" layer(global);
