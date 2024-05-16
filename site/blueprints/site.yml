@@ -19,6 +19,7 @@ columns:
         templates:
           - association
           - magasin
+          - actualites
           - devenir_cooperateur
           - contact
           - home
