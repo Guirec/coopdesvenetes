@@ -10,10 +10,16 @@ Icon
 /media/*
 !/media/index.html
 
+# Node files
+# ---------------
+
+/node_modules
+
 # Lock files
 # ---------------
 
 .lock
+*.lockb
 
 # Editors
 # (sensitive workspace files)
