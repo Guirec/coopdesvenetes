@@ -64,6 +64,7 @@
     </a>
 
     <nav class="menu">
+      <a <?php e($site->homePage()->isOpen(), 'aria-current="page"') ?> href="<?= $site->homePage()->url() ?>">Accueil</a>
       <?php
       /*
         In the menu, we only fetch listed pages,
