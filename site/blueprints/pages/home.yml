@@ -12,9 +12,7 @@ options:
 
 # on the left column we define a form to update text fields
 
-
 tabs:
-
   part_0:
     icon: text
     label: Titre
