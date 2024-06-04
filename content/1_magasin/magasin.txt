@@ -2,4 +2,16 @@ Title: Le Magasin
 
 ----
 
+Headline: 
+
+----
+
+Subheadline: 
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"Fonctionnement"},"id":"7266abb4-0698-4521-8835-87015b0ce642","isHidden":false,"type":"heading"}],"id":"8b7c3d32-36d9-4a37-addd-d1cbf43b4578","width":"1/1"}],"id":"acb250b0-b579-408a-a678-6c184032dc7f"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>descriptif du fonctionnement</p>"},"id":"8d074409-6720-46b5-8fd3-20d2dbcb55f6","isHidden":false,"type":"text"}],"id":"f47c9171-344f-44a8-8abe-f304abf61c15","width":"1/1"}],"id":"e7793aec-2245-4811-8e7b-01f11b2f831e"}]
+
+----
+
 Uuid: ZWZVZSlNpA6VJzXZ
