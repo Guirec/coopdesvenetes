@@ -1,0 +1,25 @@
+:root {
+	/* Colors */
+
+	--color-base-light: oklch(100% 0 0);
+	--color-base-subtle-light: oklch(97.63% 0.007 88.64);
+	--color-accent-light: oklch(76.88% 0.162 116.66);
+	--color-accent-medium: oklch(32.61% 0.039 174.54);
+	--color-accent-dark: oklch(24.05% 0.022 139.43);
+
+	/* Fonts */
+
+	--font-base: Avenir, Arial, sans-serif;
+
+	--font-weight-base: 500;
+	--font-weight-bold: 900;
+
+	--font-size-0: 0.875rem;
+	--font-size-1: 1rem;
+	--font-size-2: 1.125rem;
+	--font-size-3: 1.25rem;
+	--font-size-4: 1.5;
+
+	--line-height-base: 1.4;
+	--line-height-tight: 1.2;
+}

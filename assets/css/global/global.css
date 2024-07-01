@@ -1,0 +1,8 @@
+body {
+	background: var(--color-base-subtle-light);
+	color: var(--color-accent-dark);
+	font-family: var(--font-base);
+	font-size: var(--size-step-0);
+	font-weight: var(--font-weight-base);
+	line-height: var(--line-height-base);
+}
