@@ -1,3 +1,3 @@
 <?php
 
-Kirby::plugin('your-project/button-block', []);
+Kirby::plugin("your-project/button-block", []);

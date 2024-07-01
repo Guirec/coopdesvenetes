@@ -39,4 +39,3 @@ columns:
       # Files section: https://getkirby.com/docs/reference/panel/sections/files
       files:
         type: files
-
