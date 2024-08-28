@@ -57,6 +57,12 @@ tabs:
               - image
               - gallery
               - video
+          custom:
+            label: Custom Blocks
+            type: group
+            fieldsets:
+              - intro
+        pretty: true
 
   image_tab:
     icon: images

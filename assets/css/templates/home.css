@@ -127,3 +127,20 @@ button:focus {
 	outline: 0;
 	border-color: var(--color-focus);
 }
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.intro i {
+  margin-right: 2rem;
+}
