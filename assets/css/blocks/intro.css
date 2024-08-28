@@ -1,0 +1,4 @@
+.heading-1 {
+	line-height: var(--line-height-tight);
+	font-size: var(--font-size-5);
+}
