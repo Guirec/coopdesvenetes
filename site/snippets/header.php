@@ -33,9 +33,7 @@
 		*/
 		?>
 		<?= css([
-			'assets/css/prism.css',
-			'assets/css/lightbox.css',
-			'assets/css/index.css',
+      "assets/css/styles.css",
 			'@auto'
 		]) ?>
 

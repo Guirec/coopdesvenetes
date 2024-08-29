@@ -1,0 +1,41 @@
+name: Store
+icon: page
+tabs:
+  content:
+    fields:
+      heading:
+        type: text
+      store_description:
+        type: textarea
+  photo:
+    fields:
+      store_image:
+        label: Photo du magasin
+        type: files
+        multiple: false
+
+  button:
+    icon: url
+    label: Button
+    fields:
+      link:
+        type: link
+        label: Cible du bouton
+        help: Choisir une page du site dans la liste
+        options:
+          - page
+      button_text:
+        type: text
+        label: Texte du bouton
+        placeholder: texte du bouton
+      button_text_color_test:
+        type: text
+        label: Couleur du texte
+        placeholder: rouge
+      button_text_color:
+        type: color
+        format: hsl
+        label: Couleur du texte
+        options:
+          - "#AEC02F": "Green"
+          - "#FFFFFF": "White"
