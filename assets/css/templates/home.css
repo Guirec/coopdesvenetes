@@ -83,11 +83,6 @@ h3 {
 	font-size: larger;
 }
 
-p {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-}
-
 ol li {
 	list-style: symbols;
 	margin-left: 3rem;
@@ -126,21 +121,4 @@ button:empty::after {
 button:focus {
 	outline: 0;
 	border-color: var(--color-focus);
-}
-
-.intro {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.intro-info {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: start;
-}
-
-.intro i {
-	margin-right: 2rem;
 }

@@ -7,13 +7,13 @@
       <?php if ($icon = $block->address_icon()->toFile()): ?>
         <img src="<?= $icon->url() ?>" alt="">
       <?php endif; ?>
-      <p><?= $block->address() ?></p>
+      <?= $block->address()->kirbytext() ?>
     </li>
     <li class="introduction-details">
       <?php if ($icon = $block->opening_times_icon()->toFile()): ?>
           <img src="<?= $icon->url() ?>" alt="">
       <?php endif; ?>
-      <p><?= $block->opening_times() ?></p>
+      <?= $block->opening_times()->kirbytext() ?>
     </li>
   </ul>
 </div>
