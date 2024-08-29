@@ -19,7 +19,7 @@
   flex-direction: column;
   justify-content: space-between;
   row-gap: 64px;
-  min-width: 33%;
+  min-width: 38%;
 }
 
 .introduction-details {
@@ -31,4 +31,10 @@
 .introduction-details img {
   width: 24px;
   height: 24px;
+}
+
+.introduction-details {
+  & p {
+	  font-size: var(--font-size-3);
+  }
 }
