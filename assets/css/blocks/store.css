@@ -10,6 +10,7 @@
 
 .store-image {
   max-width: 42vw;
+  object-fit: contain;
 }
 
 .store-details {
