@@ -19,14 +19,6 @@
 */
 ?>
 <?= snippet("header") ?>
-<?= snippet("intro") ?>
-<?php
-/*
-		We always use an if-statement to check if a page exists to
-		prevent errors in case the page was deleted or renamed before
-		we call a method like `children()` in this case
-	*/
-?>
 
 <?php foreach ($page->layout()->toLayouts() as $layout): ?>
 <section class="grid" id="<?= $layout->id() ?>">

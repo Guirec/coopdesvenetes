@@ -1,0 +1,22 @@
+name: Intro
+icon: page
+tabs:
+  content:
+    fields:
+      heading:
+        type: text
+      address:
+        type: textarea
+      opening_times:
+        type: textarea
+  icons:
+    fields:
+      address_icon:
+        label: Icone adresse
+        type: files
+        multiple: false
+
+      opening_times_icon:
+        label: Icone horaires
+        type: files
+        multiple: false

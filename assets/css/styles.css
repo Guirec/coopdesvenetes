@@ -7,3 +7,6 @@
 @import "global/reset.css" layer(global);
 @import "global/variables.css" layer(global);
 @import "global/global.css" layer(global);
+
+/* blocks */
+@import "blocks/intro.css" layer(blocks);
