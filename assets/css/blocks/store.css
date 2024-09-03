@@ -9,8 +9,9 @@
 }
 
 .store-image {
-  max-width: 42vw;
-  object-fit: contain;
+	max-width: 42vw;
+	overflow: hidden;
+	border-radius: 16px;
 }
 
 .store-details {

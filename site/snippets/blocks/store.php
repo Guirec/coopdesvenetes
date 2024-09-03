@@ -1,7 +1,6 @@
 <div class="store">
 
   <?php if ($image = $block->store_image()->toFile()): ?>
-    <img class="store-image" src="<?= $image->url() ?>" alt="">
   <?php endif; ?>
   <div class="store-details">
     <div class="store-heading heading-1">
@@ -19,4 +18,7 @@
       </div>
     </a>
   </div>
+		<div class="store-image">
+			<img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
+		</div>
 </div>
