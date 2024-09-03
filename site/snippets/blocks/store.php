@@ -1,17 +1,15 @@
 <div class="store">
-
-  <?php if ($image = $block->store_image()->toFile()): ?>
-  <?php endif; ?>
-  <div class="store-details">
-    <div class="store-heading heading-1">
-      <?= $block->heading() ?>
-    </div>
-    <div class="store-text">
-      <?= $block->store_description()->kirbytext() ?>
-    </div>
-  </div>
+	<?php if ($image = $block->store_image()->toFile()): ?>
 		<div class="store-image">
 			<img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
+		</div>
+	<?php endif; ?>
+	<div class="store-details">
+		<div class="store-heading heading-1">
+			<?= $block->heading() ?>
+		</div>
+		<div class="store-text">
+			<?= $block->store_description()->kirbytext() ?>
 		</div>
 		<div class="push-down">
 			<a class="button" href="<?= $block->link() ?>">
@@ -21,4 +19,5 @@
 				</svg>
 			</a>
 		</div>
+	</div>
 </div>
