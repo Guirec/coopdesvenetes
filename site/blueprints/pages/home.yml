@@ -62,8 +62,9 @@ tabs:
             label: Custom Blocks
             type: group
             fieldsets:
-              - store
               - intro
+              - store
+              - features
         pretty: true
 
   image_tab:

@@ -1,4 +1,16 @@
-Template: image
+Feature-name: Bio
+
+----
+
+Shape: rounded-top-shape
+
+----
+
+Alt: produits bio
+
+----
+
+Template: feature-icon
 
 ----
 

@@ -1,47 +1,27 @@
 name: Features
 icon: page
-tabs:
-  content:
-    fields:
-      picto_1_text:
-        label: Titre picto \#1
-        type: text
-      picto_2_text:
-        label: Titre picto \#2
-        type: text
-      picto_3_text:
-        label: Titre picto \#3
-        type: text
-      picto_4_text:
-        label: Titre picto \#4
-        type: text
-      picto_5_text:
-        label: Titre picto \#5
-        type: text
 
+fields:
   icons:
-    fields:
-      picto_1:
-        label: picto \#1
-        type: files
-        multiple: false
-      picto_1:
-        label: picto \#1
-        type: files
-        multiple: false
-      picto_2:
-        label: picto \#2
-        type: files
-        multiple: false
-      picto_3:
-        label: picto \#3
-        type: files
-        multiple: false
-      picto_4:
-        label: picto \#4
-        type: files
-        multiple: false
-      picto_5:
-        label: picto \#5
-        type: files
-        multiple: false
+    label: Feature icons
+    type: files
+    size: medium
+    info: "{{ file.feature_name }}"
+    help: Please select up to 5 icons
+    layout: cards
+    min: 1
+    max: 5
+    template: feature-icon
+    # image:
+      # ratio: 1/1
+# tabs:
+#   content:
+#     fields:
+#       heading:
+#         type: text
+#       address:
+#         type: textarea
+#       opening_times:
+#         type: textarea
+#   icons:
+#     section:
