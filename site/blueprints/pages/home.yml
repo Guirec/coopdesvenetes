@@ -63,6 +63,7 @@ tabs:
             type: group
             fieldsets:
               - store
+              - intro
         pretty: true
 
   image_tab:
