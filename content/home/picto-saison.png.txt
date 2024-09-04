@@ -1,4 +1,12 @@
-Template: image
+Feature-name: Fruits et légumes de saison
+
+----
+
+Shape: rectangle-shape
+
+----
+
+Template: feature-icon
 
 ----
 

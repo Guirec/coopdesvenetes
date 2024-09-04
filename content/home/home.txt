@@ -20,9 +20,9 @@ Layout:
                 "blocks": [
                     {
                         "content": {
-                            "heading": "La Coop des Vénètes est un magasin coopératif, participatif et différent !",
-                            "address": "Coop des Vénètes\nZone du Poulfanc\n3 rue de Lorraine, 56860 Séné",
-                            "opening_times": "Lundi: 10h - 12h30\nMardi au vendredi: 10h - 12h30 / 15h - 19h\nSamedi: 10h - 12h30 / 15h - 17h30\nFermé le dimanche",
+                            "heading": "La Coop des Vénètes est un magasin coopératif, participatif et différent",
+                            "address": "Coop des Vénètes\nZone du Poulfanc\n3 rue de  Lorraine, 56860 Séné",
+                            "opening_times": "Lundi: 10h - 12h30\nMardi au vendredi: 10h - 12h30 et 15h - 19h\nSamedi: 10h - 12h30 et 15h - 17h30\nDimanche: fermé",
                             "address_icon": [
                                 "file://8xcPoDYO1LAEflX8"
                             ],
@@ -30,10 +30,22 @@ Layout:
                                 "file://16lHoq2T6Ng9XwZ1"
                             ]
                         },
-                        "id": "581e683e-a9b6-40a7-b399-ecb044f9af7f",
+                        "id": "f5cc8a32-2fb6-40a3-ab85-f03d3fea3f1a",
                         "isHidden": false,
                         "type": "intro"
-                    },
+                    }
+                ],
+                "id": "d28ac5ff-e7ce-4331-8e8b-4c1fc1dbd99d",
+                "width": "1/1"
+            }
+        ],
+        "id": "59810040-340e-46f3-9cf0-5935f0d5f684"
+    },
+    {
+        "attrs": [],
+        "columns": [
+            {
+                "blocks": [
                     {
                         "content": {
                             "heading": "Le magasin, c'est vous, c'est nous : c'est l'ensemble des coopérateur·ice·s adhérent·e·s au projet.",
@@ -61,131 +73,27 @@ Layout:
         "attrs": [],
         "columns": [
             {
-                "blocks": [],
-                "id": "257663fc-7fa9-4c0d-a66e-0f4fa381c775",
-                "width": "1/1"
-            }
-        ],
-        "id": "c022598c-f4c3-4e2b-b5ab-c7cbc5661666"
-    },
-    {
-        "attrs": [],
-        "columns": [
-            {
                 "blocks": [
                     {
                         "content": {
-                            "text": "<p>La Coop des Vénètes est un magasin coopératif, participatif et différent!</p><p>Le magasin, c’est vous, c’est nous: c’est l’ensemble des coopérateurs adhérents au projet.</p>"
-                        },
-                        "id": "2d0b8c6f-322e-43e0-8aa7-55843a103ad9",
-                        "isHidden": false,
-                        "type": "text"
-                    }
-                ],
-                "id": "cbf9d1f0-efef-43d6-8ca1-24f745907171",
-                "width": "1/1"
-            }
-        ],
-        "id": "4fe37de2-e013-4976-9a8f-d70c6e3e2805"
-    },
-    {
-        "attrs": [],
-        "columns": [
-            {
-                "blocks": [
-                    {
-                        "content": {
-                            "location": "kirby",
-                            "image": [
-                                "file://Vf1xmVohOedBYf64"
-                            ],
-                            "src": "",
-                            "alt": "",
-                            "caption": "",
-                            "link": "",
-                            "ratio": "",
-                            "crop": "false"
-                        },
-                        "id": "63506734-b326-435e-b219-2900748dbde3",
-                        "isHidden": false,
-                        "type": "image"
-                    }
-                ],
-                "id": "e9d02838-8c5b-46b7-92e6-e88d3c97d813",
-                "width": "1/1"
-            }
-        ],
-        "id": "3f93918e-29a2-4c40-bb61-c7291c81c82f"
-    },
-    {
-        "attrs": [],
-        "columns": [
-            {
-                "blocks": [
-                    {
-                        "content": {
-                            "level": "h3",
-                            "text": "Un magasin avec des produits de qualité à marges réduites proche de Vannes (au Poulfanc à Séné)"
-                        },
-                        "id": "5e20dc8c-4bbc-4091-9deb-d8d2ebb9b183",
-                        "isHidden": false,
-                        "type": "heading"
-                    }
-                ],
-                "id": "df4301c6-b858-410e-8d46-1a56678ba8e3",
-                "width": "1/1"
-            }
-        ],
-        "id": "18017999-8ada-4e12-ad51-d20f199d1cbb"
-    },
-    {
-        "attrs": [],
-        "columns": [
-            {
-                "blocks": [
-                    {
-                        "content": {
-                            "text": "<p>La Coop des Vénètes propose une offre de produits de qualité, respectueuse des hommes et de l’environnement à des tarifs très avantageux  grâce à des marges réduites. Nous sélectionnons nos produits selon certains critères de bon sens: locaux, souvent bios (tous les fruits et légumes) et de saison, avec le moins d’emballage possible, fabriqués par des gens qui ont à cœur de proposer bons produits fabriqués dans de bonnes conditions.</p>"
-                        },
-                        "id": "b0546612-1eea-4559-9720-43f4437b9ff7",
-                        "isHidden": false,
-                        "type": "text"
-                    }
-                ],
-                "id": "cc66b2b6-29f2-4633-8e5d-c79cce6ed801",
-                "width": "1/1"
-            }
-        ],
-        "id": "02cdb361-c97a-4c7b-999e-43a58e7d572b"
-    },
-    {
-        "attrs": [],
-        "columns": [
-            {
-                "blocks": [
-                    {
-                        "content": {
-                            "images": [
+                            "icons": [
+                                "file://qo4X3rlQPVHongvb",
                                 "file://wHlu1mJ2OSOcHm1K",
-                                "file://x0GqGfO8S2gAKLWH",
-                                "file://ndL7hRokO3mIUcNq",
-                                "file://QpNNyf8BywfZrAc6",
-                                "file://xZi9p9apTl54IwGv"
-                            ],
-                            "caption": "",
-                            "ratio": "",
-                            "crop": "false"
+                                "file://xZi9p9apTl54IwGv",
+                                "file://IHKgpcX2DCtrOJq9",
+                                "file://tWV53tfZFxVhh0cH"
+                            ]
                         },
-                        "id": "b502a49a-b722-40b2-9ba5-f79c5e4d4b38",
+                        "id": "9e8d14cc-2a60-42aa-9810-465af19b429d",
                         "isHidden": false,
-                        "type": "gallery"
+                        "type": "features"
                     }
                 ],
-                "id": "e14fdccc-d547-4f8f-9c4f-67a967d42231",
+                "id": "26599396-07a9-4205-9dc1-282ce0565a07",
                 "width": "1/1"
             }
         ],
-        "id": "6bc80242-f4eb-4876-b3d7-2cb9726d8f1a"
+        "id": "637db692-416a-4f66-bd8e-465464f40dae"
     },
     {
         "attrs": [],

@@ -1,0 +1,27 @@
+name: Features
+icon: page
+
+fields:
+  icons:
+    label: Feature icons
+    type: files
+    size: medium
+    info: "{{ file.feature_name }}"
+    help: Please select up to 5 icons
+    layout: cards
+    min: 1
+    max: 5
+    template: feature-icon
+    # image:
+      # ratio: 1/1
+# tabs:
+#   content:
+#     fields:
+#       heading:
+#         type: text
+#       address:
+#         type: textarea
+#       opening_times:
+#         type: textarea
+#   icons:
+#     section:

@@ -1,5 +1,17 @@
-Template: image
+Feature-name: Producteurs attentionnés
 
 ----
 
-Uuid: ndL7hRokO3mIUcNq
+Shape: rounded-top-shape
+
+----
+
+Template: feature-icon
+
+----
+
+Alt: 
+
+----
+
+Uuid: IHKgpcX2DCtrOJq9

@@ -1,5 +1,13 @@
-Template: image
+Feature-name: Local
 
 ----
 
-Uuid: QpNNyf8BywfZrAc6
+Shape: rectangle-shape
+
+----
+
+Template: feature-icon
+
+----
+
+Uuid: qo4X3rlQPVHongvb
