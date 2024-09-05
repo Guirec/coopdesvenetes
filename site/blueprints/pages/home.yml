@@ -50,6 +50,7 @@ tabs:
               - text
               - list
               - button
+              - store
           media:
             label: Media
             type: group
@@ -61,6 +62,7 @@ tabs:
             label: Custom Blocks
             type: group
             fieldsets:
+              - store
               - intro
         pretty: true
 
@@ -72,5 +74,5 @@ tabs:
         label: Bibliothèque des images de la page Home
         type: files
         layout: cards
-        max: 10
+        max: 15
         empty: aucune image

@@ -30,16 +30,63 @@ Layout:
                                 "file://16lHoq2T6Ng9XwZ1"
                             ]
                         },
-                        "id": "b85793f6-fa7a-4b93-a5be-e9289b90cb76",
+                        "id": "581e683e-a9b6-40a7-b399-ecb044f9af7f",
                         "isHidden": false,
                         "type": "intro"
+                    },
+                    {
+                        "content": {
+                            "heading": "Le magasin, c'est vous, c'est nous : c'est l'ensemble des coopérateur·ice·s adhérent·e·s au projet.",
+                            "store_description": "Un magasin avec **des produits de qualité à marges réduites** proche de Vannes (au Poulfanc à Séné).",
+                            "store_image": [
+                                "file://bCBUn2kyKNxZ8Yma"
+                            ],
+                            "link": "page://ZWZVZSlNpA6VJzXZ",
+                            "button_text": "En savoir plus sur le magasin",
+                            "button_text_color_test": "",
+                            "button_text_color": ""
+                        },
+                        "id": "269a8fb4-713c-4e62-87e5-af633ed677cd",
+                        "isHidden": false,
+                        "type": "store"
                     }
                 ],
-                "id": "299bc1d6-064c-40db-a06d-a5a2765f851f",
+                "id": "d3b81801-5c41-42d2-bf8f-6ff466594658",
                 "width": "1/1"
             }
         ],
-        "id": "762bde41-2624-425c-a170-797f8bc717f7"
+        "id": "3f599790-d03b-4a79-a411-0685dedfa0c9"
+    },
+    {
+        "attrs": [],
+        "columns": [
+            {
+                "blocks": [],
+                "id": "257663fc-7fa9-4c0d-a66e-0f4fa381c775",
+                "width": "1/1"
+            }
+        ],
+        "id": "c022598c-f4c3-4e2b-b5ab-c7cbc5661666"
+    },
+    {
+        "attrs": [],
+        "columns": [
+            {
+                "blocks": [
+                    {
+                        "content": {
+                            "text": "<p>La Coop des Vénètes est un magasin coopératif, participatif et différent!</p><p>Le magasin, c’est vous, c’est nous: c’est l’ensemble des coopérateurs adhérents au projet.</p>"
+                        },
+                        "id": "2d0b8c6f-322e-43e0-8aa7-55843a103ad9",
+                        "isHidden": false,
+                        "type": "text"
+                    }
+                ],
+                "id": "cbf9d1f0-efef-43d6-8ca1-24f745907171",
+                "width": "1/1"
+            }
+        ],
+        "id": "4fe37de2-e013-4976-9a8f-d70c6e3e2805"
     },
     {
         "attrs": [],

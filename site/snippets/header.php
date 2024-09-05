@@ -33,9 +33,9 @@
 		*/
 ?>
 		<?= css([
-    "assets/css/styles.css",
-  	"@auto",
-  ]) ?>
+      "assets/css/styles.css",
+			'@auto'
+		]) ?>
 
 		<?php
 /*

@@ -1,5 +1,5 @@
 <button>
 	<a href="<?= $block->link() ?>">
-		<?= $block->text() ?>
+		<?= $block->class() ?>
 	</a>
 </button>
