@@ -13,7 +13,7 @@ Layout:
                     {
                         "content": {
                             "heading": "La Coop des Vénètes est un magasin coopératif, participatif et différent !",
-                            "address": "Coop des Vénètes\nZone du Poulfanc\n3 rue de Lorraine, 56860 Séné",
+                            "address": "Coop des Vénètes\nZone du Poulfanc\n3 rue de Lorrain, 56860 Séné",
                             "opening_times": "Lundi: 10h - 12h30\nMardi au vendredi: 10h - 12h30 et 15h - 19h\nSamedi: 10h - 12h30 et 15h - 17h30\nDimanche: fermé",
                             "address_icon": [
                                 "file://8xcPoDYO1LAEflX8"
@@ -22,16 +22,16 @@ Layout:
                                 "file://16lHoq2T6Ng9XwZ1"
                             ]
                         },
-                        "id": "f5cc8a32-2fb6-40a3-ab85-f03d3fea3f1a",
+                        "id": "8cafac9b-c3d5-4ffa-9483-9511566c9f47",
                         "isHidden": false,
                         "type": "intro"
                     }
                 ],
-                "id": "d28ac5ff-e7ce-4331-8e8b-4c1fc1dbd99d",
+                "id": "ad4207a2-9d42-4784-9506-91f4b9fdd1f7",
                 "width": "1/1"
             }
         ],
-        "id": "59810040-340e-46f3-9cf0-5935f0d5f684"
+        "id": "85715aa4-fbc1-4bf6-97c2-8d04c317ceeb"
     },
     {
         "attrs": [],
