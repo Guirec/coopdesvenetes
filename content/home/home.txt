@@ -12,8 +12,8 @@ Layout:
                 "blocks": [
                     {
                         "content": {
-                            "heading": "La Coop des Vénètes est un magasin coopératif, participatif et différent",
-                            "address": "Coop des Vénètes\nZone du Poulfanc\n3 rue de  Lorraine, 56860 Séné",
+                            "heading": "La Coop des Vénètes est un magasin coopératif, participatif et différent !",
+                            "address": "Coop des Vénètes\nZone du Poulfanc\n3 rue de Lorrain, 56860 Séné",
                             "opening_times": "Lundi: 10h - 12h30\nMardi au vendredi: 10h - 12h30 et 15h - 19h\nSamedi: 10h - 12h30 et 15h - 17h30\nDimanche: fermé",
                             "address_icon": [
                                 "file://8xcPoDYO1LAEflX8"
@@ -25,22 +25,6 @@ Layout:
                         "id": "f5cc8a32-2fb6-40a3-ab85-f03d3fea3f1a",
                         "isHidden": false,
                         "type": "intro"
-                    },
-                    {
-                        "content": {
-                            "heading": "Le magasin, c'est vous, c'est nous : c'est l'ensemble des coopérateur·ice·s adhérent·e·s au projet.",
-                            "store_description": "Un magasin avec **des produits de qualité à marges réduites** proche de Vannes (au Poulfanc à Séné).",
-                            "store_image": [
-                                "file://bCBUn2kyKNxZ8Yma"
-                            ],
-                            "link": "page://ZWZVZSlNpA6VJzXZ",
-                            "button_text": "En savoir plus sur le magasin",
-                            "button_text_color_test": "",
-                            "button_text_color": ""
-                        },
-                        "id": "269a8fb4-713c-4e62-87e5-af633ed677cd",
-                        "isHidden": false,
-                        "type": "store"
                     }
                 ],
                 "id": "d28ac5ff-e7ce-4331-8e8b-4c1fc1dbd99d",

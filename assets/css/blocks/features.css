@@ -27,8 +27,9 @@
 	}
 }
 
-.features__item p {
+.features__name {
 	color: var(--color-base-subtle-light);
+	font-weight: var(--font-weight-bold);
 	font-size: 32px;
 	text-align: center;
 }
