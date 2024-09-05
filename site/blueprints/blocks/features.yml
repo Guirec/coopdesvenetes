@@ -3,17 +3,18 @@ icon: page
 
 fields:
   icons:
-    label: Feature icons
+    label: Feature icons for {{ page.title }} page
     type: files
-    size: medium
-    info: "{{ file.feature_name }}"
+    size: small
+    info: "{{ file.feature_name }} | {{ file.dimensions}}"
     help: Please select up to 5 icons
     layout: cards
     min: 1
-    max: 5
-    template: feature-icon
+    max: 7
+    uploads:
+      template: feature-icon
     # image:
-      # ratio: 1/1
+    # ratio: 1/1
 # tabs:
 #   content:
 #     fields:

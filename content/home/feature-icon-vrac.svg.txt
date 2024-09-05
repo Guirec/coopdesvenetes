@@ -6,12 +6,8 @@ Shape: rectangle-shape
 
 ----
 
-Alt: Le moins d'emballage possible
+Uuid: iEDVaP52MLwr9VJQ
 
 ----
 
 Template: feature-icon
-
-----
-
-Uuid: tWV53tfZFxVhh0cH

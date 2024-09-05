@@ -32,10 +32,7 @@
 			More Kirby helpers: https://getkirby.com/docs/reference/templates/helpers
 		*/
 ?>
-		<?= css([
-      "assets/css/styles.css",
-			'@auto'
-		]) ?>
+		<?= css(["assets/css/styles.css", "@auto"]) ?>
 
 		<?php
 /*

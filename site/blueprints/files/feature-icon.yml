@@ -2,7 +2,7 @@ title: Feature Icon
 
 accept:
   type: image
-  mime: image/webp, image/svg, image/png
+  mime: image/webp, image/svg+xml, image/png
   # maxwidth: 150
   # maxheight: 150
 

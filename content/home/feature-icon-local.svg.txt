@@ -6,8 +6,8 @@ Shape: rectangle-shape
 
 ----
 
-Template: feature-icon
+Uuid: oXrB9oW55XHxgaEp
 
 ----
 
-Uuid: qo4X3rlQPVHongvb
+Template: feature-icon
