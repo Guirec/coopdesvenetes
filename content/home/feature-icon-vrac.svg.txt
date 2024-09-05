@@ -1,0 +1,13 @@
+Feature-name: Le moins d'emballage possible
+
+----
+
+Shape: rectangle-shape
+
+----
+
+Uuid: iEDVaP52MLwr9VJQ
+
+----
+
+Template: feature-icon
