@@ -2,14 +2,6 @@ Title: Home
 
 ----
 
-Headline: Bienvenue à la Coop des Vénètes
-
-----
-
-Subheadline: Le site web de la Coop des Vénètes
-
-----
-
 Layout:
 
 [
@@ -77,11 +69,11 @@ Layout:
                     {
                         "content": {
                             "icons": [
-                                "file://qo4X3rlQPVHongvb",
-                                "file://wHlu1mJ2OSOcHm1K",
-                                "file://xZi9p9apTl54IwGv",
-                                "file://IHKgpcX2DCtrOJq9",
-                                "file://tWV53tfZFxVhh0cH"
+                                "file://oXrB9oW55XHxgaEp",
+                                "file://6VNdbpWC3TxjfzfJ",
+                                "file://gnywrGYJOQY4nX9m",
+                                "file://HGYRcFu5UPox3jqI",
+                                "file://iEDVaP52MLwr9VJQ"
                             ]
                         },
                         "id": "9e8d14cc-2a60-42aa-9810-465af19b429d",
@@ -479,6 +471,14 @@ Layout:
         "id": "8e45e71a-20cd-4e85-bd16-1009e7457617"
     }
 ]
+
+----
+
+Headline: Bienvenue à la Coop des Vénètes
+
+----
+
+Subheadline: Le site web de la Coop des Vénètes
 
 ----
 

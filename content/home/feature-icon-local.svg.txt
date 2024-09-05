@@ -1,0 +1,13 @@
+Feature-name: Local
+
+----
+
+Shape: rectangle-shape
+
+----
+
+Uuid: oXrB9oW55XHxgaEp
+
+----
+
+Template: feature-icon
