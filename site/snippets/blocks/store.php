@@ -1,14 +1,14 @@
 <div class="store">
 	<?php if ($image = $block->store_image()->toFile()): ?>
-		<div class="store-image">
+		<div class="store__image">
 			<img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
 		</div>
 	<?php endif; ?>
-	<div class="store-details">
-		<div class="store-heading heading-1">
+	<div class="store__details">
+		<div class="store__heading heading-1">
 			<?= $block->heading() ?>
 		</div>
-		<div class="store-text">
+		<div class="store__text">
 			<?= $block->store_description()->kirbytext() ?>
 		</div>
 		<div class="push-down">
