@@ -1,7 +1,7 @@
 .heading-1 {
 	line-height: var(--line-height-tight);
 	font-size: var(--font-size-5);
-	font-weight: var(--font-weight-bold);
+	font-weight: var(--font-weight-black);
 }
 
 .introduction {
@@ -14,7 +14,7 @@
 	align-items: center;
 }
 
-.introduction-info {
+.introduction__info {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -22,18 +22,18 @@
 	min-width: 38%;
 }
 
-.introduction-details {
+.introduction__details {
 	display: flex;
 	justify-content: start;
 	column-gap: 16px;
 }
 
-.introduction-details img {
+.introduction__details img {
 	width: 24px;
 	height: 24px;
 }
 
-.introduction-details {
+.introduction__details {
 	& p {
 		font-size: var(--font-size-3);
 	}
