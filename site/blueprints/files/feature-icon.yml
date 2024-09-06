@@ -3,18 +3,8 @@ title: Feature Icon
 accept:
   type: image
   mime: image/webp, image/svg+xml, image/png
-  # maxwidth: 150
-  # maxheight: 150
 
 fields:
   feature_name:
     label: Feature name
     type: text
-    width: 1/2
-  shape:
-    label: Shape
-    type: radio
-    options:
-      rectangle-shape: Rectangle shape
-      rounded-top-shape: Rounded top shape
-    width: 1/2
