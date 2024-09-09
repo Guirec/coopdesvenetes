@@ -48,6 +48,23 @@ Blocks:
         "id": "3300b511-f444-4ac5-8d25-43426fd610ac",
         "isHidden": false,
         "type": "features"
+    },
+    {
+        "content": {
+            "heading": "Comment ça marche ?",
+            "subheading": "Pour profiter des avantages de la Coop des Vénètes, il suffit de devenir coopérateur·ice.",
+            "top_left_block_heading": "Je suis **coopérateur·ice**",
+            "top_left_block_text": "En adhérant à l'association pour 5 € (à renouveler chaque année) et en souscrivant au fonctionnement du magasin à hauteur de 100 € (une seule fois) ou 25 € si c'est plus simple pour moi (on est solidaire).",
+            "top_right_block_heading": "Je suis **bénévol·e 3 heures** par mois",
+            "top_right_block_text": "Je fais vivre le magasin en donnant 2 fois 1h30 par mois. En tant que coopérateur·ice je peux par exemple apprendre à tenir la caisse, achalander les rayons, couper le fromage, etc. Depuis votre domicile si vous le souhaitez: tâches administratives ou comptabilité, toujours en exemple.",
+            "bottom_left_block_heading": "Mes proches et moi-même faisons **nos courses au magasin**",
+            "bottom_left_block_text": "Faites vos courses à la Coop aussi souvent que vous le souhaitez pour vous-même et pour les personnes avec lesquelles vous vivez. Passez voir, le magasin est également ouvert à tous les non-coopérants pour leur faire découvrir le magasin deux fois sans engagement.",
+            "bottom_right_block_heading": "Je peux participer aux **activités de l'association**",
+            "bottom_right_block_text": "Un projet humain et riche de projets, d'initiatives. Vous êtes\nla·le bienvenu·e."
+        },
+        "id": "8a15e0bc-4a30-449e-b10f-babac68fcad4",
+        "isHidden": false,
+        "type": "how-it-works"
     }
 ]
 

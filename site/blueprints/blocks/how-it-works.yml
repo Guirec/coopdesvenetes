@@ -1,0 +1,35 @@
+name: Section "comment ça marche"
+icon: cog
+preview: fields
+wysiwyg: true
+fields:
+  heading:
+    label: Titre de la section "comment ça marche"
+    type: text
+  subheading:
+    label: Sous-titre
+    type: text
+  top_left_block_heading:
+    label: Titre du bloc en haut à gauche
+    type: textarea
+  top_left_block_text:
+    label: Texte du bloc en haut à gauche
+    type: textarea
+  top_right_block_heading:
+    label: Titre du bloc en haut à droite
+    type: textarea
+  top_right_block_text:
+    label: Texte du bloc en haut à droite
+    type: textarea
+  bottom_left_block_heading:
+    label: Titre du bloc en bas à gauche
+    type: textarea
+  bottom_left_block_text:
+    label: Texte du bloc en bas à gauche
+    type: textarea
+  bottom_right_block_heading:
+    label: Titre du bloc en bas à droite
+    type: textarea
+  bottom_right_block_text:
+    label: Texte du bloc en bas à droite
+    type: textarea
