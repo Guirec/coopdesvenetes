@@ -1,0 +1,13 @@
+Feature-name: Bio
+
+----
+
+Shape: rounded-top-shape
+
+----
+
+Uuid: 6VNdbpWC3TxjfzfJ
+
+----
+
+Template: feature-icon

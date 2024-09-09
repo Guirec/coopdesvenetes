@@ -1,0 +1,35 @@
+.features {
+	background-color: var(--color-accent-medium);
+	border-radius: 0 0 16px 16px;
+	padding-inline: 32px;
+	padding-block: 144px;
+}
+
+.features__list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 32px;
+}
+
+.features__item {
+	width: 250px;
+	height: 300px;
+	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 32px;
+	background: color-mix(in oklch, var(--color-base-light), transparent 95%);
+	&:nth-child(even) {
+		border-radius: 150px 150px 16px 16px;
+	}
+}
+
+.features__name {
+	color: var(--color-base-subtle-light);
+	font-weight: var(--font-weight-bold);
+	font-size: 32px;
+	text-align: center;
+}

@@ -13,18 +13,6 @@ options:
 # on the left column we define a form to update text fields
 
 tabs:
-  part_0:
-    icon: text
-    label: Titre
-    type: fields
-    fields:
-      headline:
-        type: text
-        width: 1/2
-      subheadline:
-        type: text
-        width: 1/2
-
   layout:
     icon: text
     label: Layout home
@@ -64,6 +52,8 @@ tabs:
             fieldsets:
               - store
               - intro
+              - store
+              - features
         pretty: true
 
   image_tab:
@@ -74,5 +64,5 @@ tabs:
         label: Bibliothèque des images de la page Home
         type: files
         layout: cards
-        max: 15
+        max: 50
         empty: aucune image
