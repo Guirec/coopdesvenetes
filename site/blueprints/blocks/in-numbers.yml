@@ -1,0 +1,19 @@
+name: Section "La Coop en chiffres"
+icon: list-numbers
+preview: fields
+wysiwyg: true
+fields:
+  heading:
+    label: Titre de la section
+    type: text
+  icons:
+    label: Icônes des cartes La Coop en Chiffres
+    type: files
+    size: small
+    info: "{{ file.in_numbers_number }} | {{ file.in_numbers_name }}"
+    help: Choisir des icônes (5 maximum)
+    layout: cards
+    max: 5
+    empty: Aucune icône sélectionnée
+    uploads:
+      template: in-numbers-icon

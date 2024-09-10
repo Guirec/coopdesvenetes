@@ -1,4 +1,4 @@
-<div class="how-it-works">
+<section class="how-it-works">
 	<div class="how-it-works__heading">
 		<h2 class="heading-1">
 			<?= $block->heading() ?>
@@ -38,4 +38,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>

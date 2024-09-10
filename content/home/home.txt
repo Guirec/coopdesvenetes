@@ -65,6 +65,19 @@ Blocks:
         "id": "8a15e0bc-4a30-449e-b10f-babac68fcad4",
         "isHidden": false,
         "type": "how-it-works"
+    },
+    {
+        "content": {
+            "heading": "La Coop en chiffres",
+            "icons": [
+                "file://aR1tYnG4k6MoANFe",
+                "file://InplAGhJyBARXA48",
+                "file://pA1OvXgsN2HaOSR0"
+            ]
+        },
+        "id": "a72c5b4e-c298-48e1-9794-a53e85a13951",
+        "isHidden": false,
+        "type": "in-numbers"
     }
 ]
 
