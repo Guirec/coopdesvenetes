@@ -18,7 +18,7 @@
 .how-it-works__blocks {
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	gap: 32px;
 }
 
 .how-it-works__blocks__top, .how-it-works__blocks__bottom {
@@ -36,8 +36,8 @@
 .how-it-works__blocks__item {
 	background-color: var(--color-base-light);
 	width: 50%;
-	padding-block: 2rem;
-	padding-inline: 2rem;
+	padding-block: 32px;
+	padding-inline: 32px;
 	font-size: var(--font-size-3);
 	display: flex;
 	flex-direction: column;
@@ -45,11 +45,11 @@
 }
 
 .how-it-works__blocks__left {
-	padding-inline-end: 4rem;
+	padding-inline-end: 64px;
 }
 
 .how-it-works__blocks__right {
-	padding-inline-start: 4rem;
+	padding-inline-start: 64px;
 }
 
 .how-it-works__blocks__top {
