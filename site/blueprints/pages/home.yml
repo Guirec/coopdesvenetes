@@ -10,52 +10,22 @@ icon: 🏠
 options:
   changeStatus: false
 
-# on the left column we define a form to update text fields
-
 tabs:
   layout:
-    icon: text
-    label: Layout home
+    label: Page
+    icon: page
     fields:
-      layout:
-        label: Layout
-        type: layout
-        layouts:
-          - "1/1"
-          - "1/2, 1/2"
-          - "1/3, 1/3, 1/3"
-          - "2/3, 1/3"
-          - "1/3, 2/3"
-        selector:
-          size: large
-          columns: 2
-        fieldsets:
-          text:
-            label: Text
-            type: group
-            fieldsets:
-              - heading
-              - text
-              - list
-              - button
-          media:
-            label: Media
-            type: group
-            fieldsets:
-              - image
-              - gallery
-              - video
-          custom:
-            label: Custom Blocks
-            type: group
-            fieldsets:
-              - store
-              - intro
-              - store
-              - features
+      blocks:
+        type: blocks
+        label: Sections
         pretty: true
-
-  image_tab:
+        fieldsets:
+          - heading
+          - text
+          - intro
+          - store
+          - features
+  images:
     icon: images
     label: Images de la home page
     sections:

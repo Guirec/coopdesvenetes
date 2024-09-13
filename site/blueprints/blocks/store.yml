@@ -1,22 +1,28 @@
-name: Store
-icon: page
+name: Section "magasin"
+icon: store
+preview: fields
+wysiwyg: true
 tabs:
   content:
+    label: Textes
     fields:
       heading:
+        label: Titre de la section magasin
         type: text
       store_description:
+        label: Texte de la section magasin
         type: textarea
   photo:
+    label: Photo
     fields:
       store_image:
         label: Photo du magasin
         type: files
+        size: large
+        layout: cards
         multiple: false
-
   button:
-    icon: url
-    label: Button
+    label: Bouton
     fields:
       link:
         type: link
@@ -28,14 +34,3 @@ tabs:
         type: text
         label: Texte du bouton
         placeholder: texte du bouton
-      button_text_color_test:
-        type: text
-        label: Couleur du texte
-        placeholder: rouge
-      button_text_color:
-        type: color
-        format: hsl
-        label: Couleur du texte
-        options:
-          - "#AEC02F": "Green"
-          - "#FFFFFF": "White"

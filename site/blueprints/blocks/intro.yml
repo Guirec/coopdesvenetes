@@ -1,22 +1,28 @@
-name: Intro
-icon: page
+name: Section "introduction"
+icon: grid-top
+preview: fields
+wysiwyg: true
 tabs:
   content:
+    label: Textes
     fields:
       heading:
+        label: Titre de l'introduction
         type: text
       address:
+        label: Adresse de la Coop
         type: textarea
       opening_times:
+        label: Horaires d'ouverture
         type: textarea
   icons:
+    label: Icônes
     fields:
       address_icon:
-        label: Icone adresse
+        label: Icône "adresse"
         type: files
         multiple: false
-
       opening_times_icon:
-        label: Icone horaires
+        label: Icône "horaires"
         type: files
         multiple: false

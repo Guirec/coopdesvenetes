@@ -1,28 +1,16 @@
-name: Features
-icon: page
-
+name: Section "caractéristiques de la Coop"
+icon: star-filled
+preview: fields
+wysiwyg: true
 fields:
   icons:
-    label: Feature icons for {{ page.title }} page
+    label: Icônes des caractéristiques de la Coop
     type: files
     size: small
-    info: "{{ file.feature_name }} | {{ file.dimensions}}"
-    help: Please select up to 5 icons
+    info: "Texte: {{ file.feature_name }}"
+    help: Choisir des icônes (7 maximum)
     layout: cards
-    min: 1
     max: 7
+    empty: Aucune icône sélectionnée
     uploads:
       template: feature-icon
-    # image:
-    # ratio: 1/1
-# tabs:
-#   content:
-#     fields:
-#       heading:
-#         type: text
-#       address:
-#         type: textarea
-#       opening_times:
-#         type: textarea
-#   icons:
-#     section:
