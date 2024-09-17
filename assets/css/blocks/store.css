@@ -5,7 +5,7 @@
 	border-radius: 16px 16px 0 0;
 	display: flex;
 	justify-content: space-between;
-	column-gap: 80px;
+	gap: 80px;
 }
 
 .store__image {
@@ -17,8 +17,8 @@
 .store__details {
 	display: flex;
 	flex-direction: column;
-	row-gap: 32px;
-
+	gap: 2rem;
+	font-size: var(--font-size-3);
 	& a {
 		text-decoration: none;
 	}
@@ -26,16 +26,6 @@
 
 .push-down {
 	margin-block-start: auto;
-}
-
-.store__heading {
-	line-height: var(--line-height-tight);
-	font-size: var(--font-size-5);
-	font-weight: var(--font-weight-black);
-}
-
-.store__text {
-	font-size: var(--font-size-3);
 }
 
 .button {

@@ -6,3 +6,17 @@ body {
 	font-weight: var(--font-weight-base);
 	line-height: var(--line-height-base);
 }
+
+h1 {
+	line-height: var(--line-height-tight);
+	font-size: var(--font-size-6);
+	font-weight: var(--font-weight-black);
+}
+
+h2 {
+	font-size: var(--font-size-5);
+}
+
+h4 {
+	font-size: var(--font-size-4);
+}

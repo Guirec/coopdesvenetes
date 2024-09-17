@@ -25,6 +25,7 @@ tabs:
           - intro
           - store
           - features
+          - how-it-works  
   images:
     icon: images
     label: Images de la home page

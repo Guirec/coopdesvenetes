@@ -1,8 +1,12 @@
+<?php $header_tag = ($page->isHomePage()) ? "h1" : "h2";  ?>
+
 <div class="introduction">
-  <div class="introduction__heading heading-1">
+
+	<<?= $header_tag ?> class="introduction__heading heading-1">
     <?= $block->heading() ?>
-  </div>
-  <ul role="list" class="introduction__info">
+  </<?= $header_tag ?>>
+
+	<ul role="list" class="introduction__info">
     <li class="introduction__details">
       <?php if ($icon = $block->address_icon()->toFile()): ?>
         <img src="<?= $icon->url() ?>" alt="">
