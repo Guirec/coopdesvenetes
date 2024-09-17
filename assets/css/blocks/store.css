@@ -18,7 +18,7 @@
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
-
+	font-size: var(--font-size-3);
 	& a {
 		text-decoration: none;
 	}
@@ -26,16 +26,6 @@
 
 .push-down {
 	margin-block-start: auto;
-}
-
-.store__heading {
-	line-height: var(--line-height-tight);
-	font-size: var(--font-size-6);
-	font-weight: var(--font-weight-black);
-}
-
-.store__text {
-	font-size: var(--font-size-3);
 }
 
 .button {

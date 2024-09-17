@@ -5,12 +5,12 @@
 		</div>
 	<?php endif; ?>
 	<div class="store__details">
-		<div class="store__heading heading-1">
+		<div class="heading-1">
 			<?= $block->heading() ?>
 		</div>
-		<div class="store__text">
+		<p>
 			<?= $block->store_description()->kirbytext() ?>
-		</div>
+		</p>
 		<div class="push-down">
 			<a class="button" href="<?= $block->link() ?>">
 				<?= $block->button_text() ?>

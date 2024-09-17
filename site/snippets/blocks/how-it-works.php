@@ -1,11 +1,11 @@
 <div class="how-it-works">
 	<div class="how-it-works__heading">
-		<h1>
+		<h2 class="heading-1">
 			<?= $block->heading() ?>
-		</h1>
-		<div class="subheading">
+		</h2>
+		<p>
 			<?= $block->subheading() ?>
-		</div>
+		</p>
 	</div>
 	<div class="how-it-works__blocks">
 		<svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
@@ -19,21 +19,21 @@
 		</svg>
 		<div class="how-it-works__blocks__top">
 			<div class="how-it-works__blocks__item how-it-works__blocks__top how-it-works__blocks__left">
-				<div class="how-it-works_blocks__item__heading"><?= $block->top_left_block_heading()->kirbytextinline() ?></div>
+				<strong class="how-it-works_blocks__heading"><?= $block->top_left_block_heading()->kirbytextinline() ?></strong>
 				<p><?= $block->top_left_block_text() ?></p>
 			</div>
 			<div class="how-it-works__blocks__item how-it-works__blocks__top how-it-works__blocks__right">
-				<div class="how-it-works_blocks__item__heading"><?= $block->top_right_block_heading()->kirbytextinline() ?></div>
+				<strong class="how-it-works_blocks__heading"><?= $block->top_right_block_heading()->kirbytextinline() ?></strong>
 				<p><?= $block->top_right_block_text() ?></p>
 			</div>
 		</div>
 		<div class="how-it-works__blocks__bottom">
 			<div class="how-it-works__blocks__item how-it-works__blocks__bottom how-it-works__blocks__left">
-				<div class="how-it-works_blocks__item__heading"><?= $block->bottom_left_block_heading()->kirbytextinline() ?></div>
+				<strong class="how-it-works_blocks__heading"><?= $block->bottom_left_block_heading()->kirbytextinline() ?></strong>
 				<p><?= $block->bottom_left_block_text() ?></p>
 			</div>
 			<div class="how-it-works__blocks__item how-it-works__blocks__bottom how-it-works__blocks__right">
-				<div class="how-it-works_blocks__item__heading"><?= $block->bottom_right_block_heading()->kirbytextinline() ?></div>
+				<strong class="how-it-works_blocks__heading"><?= $block->bottom_right_block_heading()->kirbytextinline() ?></strong>
 				<p><?= $block->bottom_right_block_text() ?></p>
 			</div>
 		</div>

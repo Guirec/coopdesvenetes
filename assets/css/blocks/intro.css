@@ -1,12 +1,4 @@
 .introduction {
-	.heading-1 {
-		line-height: var(--line-height-tight);
-		font-size: var(--font-size-6);
-		font-weight: var(--font-weight-black);
-	}
-}
-
-.introduction {
 	display: flex;
 	justify-content: space-between;
 	gap: 164px;
