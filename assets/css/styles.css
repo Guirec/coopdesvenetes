@@ -14,6 +14,7 @@
 
 /* Blocks */
 
+@import "blocks/header.css" layer(blocks);
 @import "blocks/intro.css" layer(blocks);
 @import "blocks/store.css" layer(blocks);
 @import "blocks/features.css" layer(blocks);
