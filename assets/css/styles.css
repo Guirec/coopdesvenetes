@@ -11,6 +11,7 @@
 /* blocks */
 @import "blocks/features.css" layer(blocks);
 @import "blocks/how-it-works.css" layer(blocks);
+@import "blocks/in-numbers.css" layer(blocks);
 @import "blocks/intro.css" layer(blocks);
 @import "blocks/store.css" layer(blocks);
 

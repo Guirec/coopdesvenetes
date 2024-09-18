@@ -1,0 +1,13 @@
+title: In numbers Icon
+
+accept:
+  type: image
+  mime: image/webp, image/svg+xml, image/png
+
+fields:
+  in_numbers_number:
+    label: Nombre
+    type: text
+  in_numbers_name:
+    label: Texte
+    type: text
