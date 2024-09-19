@@ -35,6 +35,23 @@
 	&:hover {
 		--header-nav-item-progression: 100%;
 	}
+
+	.header__navigation__item:last-child & {
+		display: flex;
+		flex: 0 0 auto;
+		align-items: center;
+		gap: var(--space-rem-2);
+
+		&::before {
+			content: "";
+			display: block;
+			width: 1.1em;
+			aspect-ratio: 1;
+			mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="%231A2218" d="m16.17 11-5.36-5.36 1.41-1.42L20 12l-7.78 7.78-1.41-1.42L16.17 13H4v-2h12.17Z"/></svg>');
+			mask-size: cover;
+			background-color: currentColor;
+		}
+	}
 }
 
 @media (width < 48em) {
