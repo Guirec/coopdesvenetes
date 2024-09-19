@@ -8,12 +8,20 @@
 @import "global/variables.css" layer(global);
 @import "global/global.css" layer(global);
 
-/* blocks */
+/* Compositions */
+
+@import "compositions/wrapper.css" layer(compositions);
+
+/* Blocks */
+
+@import "blocks/header.css" layer(blocks);
+@import "blocks/intro.css" layer(blocks);
+@import "blocks/store.css" layer(blocks);
 @import "blocks/features.css" layer(blocks);
 @import "blocks/how-it-works.css" layer(blocks);
 @import "blocks/in-numbers.css" layer(blocks);
-@import "blocks/intro.css" layer(blocks);
-@import "blocks/store.css" layer(blocks);
 
-/* utilities */
+/* Utilities */
+
+@import "utilities/a11y.css" layer(utilities);
 @import "utilities/headings.css" layer(utilities);

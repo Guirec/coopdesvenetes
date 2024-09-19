@@ -45,10 +45,10 @@
 
 .in-numbers__number {
 	line-height: var(--line-height-tight);
-	font-size: var(--font-size-6);
+	font-size: var(--font-size-8);
 	font-weight: var(--font-weight-black);
 }
 
 .in-numbers__text {
-	font-size: var(--font-size-4);
+	font-size: var(--font-size-6);
 }

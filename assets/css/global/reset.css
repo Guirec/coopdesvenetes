@@ -51,8 +51,8 @@ a:not([class]) {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role="list"],
-ol[role="list"] {
+ul:where([role="list"]),
+ol:where([role="list"]) {
 	list-style: none;
 }
 
@@ -65,6 +65,7 @@ svg,
 video {
 	display: block;
 	max-width: 100%;
+	height: auto;
 }
 
 /* Inherit fonts for inputs and buttons */

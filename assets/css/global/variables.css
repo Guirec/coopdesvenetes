@@ -15,14 +15,37 @@
 	--font-weight-bold: 700;
 	--font-weight-black: 900;
 
-	--font-size-0: 0.875rem;
-	--font-size-1: 1rem;
-	--font-size-2: 1.125rem;
-	--font-size-3: 1.25rem;
-	--font-size-4: 1.5rem;
-	--font-size-5: 2.25rem;
-	--font-size-6: 3rem;
+	--font-size-1: 0.75rem;
+	--font-size-2: 0.875rem;
+	--font-size-3: 1rem;
+	--font-size-4: 1.125rem;
+	--font-size-5: 1.25rem;
+	--font-size-6: 1.5rem;
+	--font-size-7: 2rem;
+	--font-size-8: 3rem;
 
 	--line-height-base: 1.4;
 	--line-height-tight: 1.2;
+
+	/* Spaces px */
+
+	--space-px-0: 0px;
+	--space-px-1: 4px;
+	--space-px-2: 8px;
+	--space-px-3: 12px;
+	--space-px-4: 16px;
+	--space-px-5: 20px;
+	--space-px-6: 24px;
+	--space-px-7: 28px;
+	--space-px-8: 32px;
+	/* Spaces rem */
+
+	--space-rem-0: 0rem;
+	--space-rem-1: 0.25rem;
+	--space-rem-2: 0.5rem;
+	--space-rem-3: 0.75rem;
+	--space-rem-4: 1rem;
+	--space-rem-5: 1.25rem;
+	--space-rem-6: 1.5rem;
+	--space-rem-7: 1.75rem;
 }
