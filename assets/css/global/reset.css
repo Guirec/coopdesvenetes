@@ -21,7 +21,7 @@ html {
 /* Set core body defaults */
 body {
 	-webkit-font-smoothing: antialiased;
-	min-height: 100vh;
+	min-height: 100dvh;
 	line-height: 1.5;
 }
 
@@ -52,7 +52,8 @@ a:not([class]) {
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul:where([role="list"]),
-ol:where([role="list"]) {
+ol:where([role="list"]),
+ul:where([role="menubar"]) {
 	list-style: none;
 }
 
