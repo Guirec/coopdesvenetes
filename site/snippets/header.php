@@ -1,7 +1,7 @@
 <header class="header">
-	<div class="wrapper">
-		<div class="header__inner">
-			<a class="header__logo" href="<?= $site->url() ?>">
+	<div class="header__inner">
+		<div class="header__content">
+			<a class="logo" href="<?= $site->url() ?>">
 				<?php if ($logo = asset('assets/images/logo.svg')): ?>
 					<img src="<?= $logo->url() ?>" alt="<?= $site->title() ?>" width="<?= $logo->width() ?>" height="<?= $logo->height() ?>">
 				<?php else: ?>
@@ -9,15 +9,15 @@
 				<?php endif; ?>
 			</a>
 
-			<main-navigation>
-				<button id="menu-trigger" class="header__toggle" aria-label="Navigation menu" aria-expanded="false" aria-controls="menu">
+			<main-navigation class="main-navigation">
+				<button class="main-navigation__trigger" aria-label="Ouvrir / Fermer le menu" aria-expanded="false" aria-controls="menu" data-menu-trigger>
 					<span>Menu</span>
 				</button>
 
-				<nav class="header__navigation" id="menu">
-					<ul class="header__navigation__list" role="menubar">
-						<li class="header__navigation__item" role="none">
-							<a class="header__navigation__link" <?php e(
+				<nav class="main-navigation__menu" id="menu" data-menu-nav>
+					<ul class="main-navigation__list" role="menubar" data-menu-list>
+						<li class="main-navigation__item" role="none">
+							<a class="main-navigation__link" <?php e(
 								$site->homePage()->isOpen(),
 								'aria-current="page"'
 							); ?> href="<?= $site->homePage()->url() ?>" role="menuitem">Accueil</a>
@@ -36,8 +36,8 @@
 						*/
 						?>
 						<?php foreach ($site->children()->listed() as $item): ?>
-							<li class="header__navigation__item" role="none">
-								<a class="header__navigation__link" <?php e(
+							<li class="main-navigation__item" role="none">
+								<a class="main-navigation__link" <?php e(
 									$item->isOpen(),
 									'aria-current="page"'
 								); ?> href="<?= $item->url() ?>" role="menuitem"><?= $item->title()->esc() ?></a>

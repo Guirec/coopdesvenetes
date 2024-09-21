@@ -1,0 +1,21 @@
+.logo {
+	display: block;
+	color: currentColor;
+	font-size: var(--font-size-4);
+	font-weight: var(--font-weight-black);
+	text-decoration: none;
+
+	&:has(img) {
+		max-width: 5.625rem;
+	}
+}
+
+@container header (width >= 48em) {
+	.logo {
+		font-size: var(--font-size-6);
+
+		&:has(img) {
+			max-width: 8.75rem;
+		}
+	}
+}
