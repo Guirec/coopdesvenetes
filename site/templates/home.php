@@ -3,7 +3,7 @@
 	<head>
 		<?php snippet("head"); ?>
 	</head>
-	<body>
+	<body class="wrapper">
 		<?php snippet("header"); ?>
 
 		<?= $page->blocks()->toBlocks() ?>
