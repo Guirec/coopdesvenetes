@@ -1,0 +1,177 @@
+.main-navigation {
+	--main-nav-gap: var(--space-px-4) calc(var(--space-px-4) * 4);
+	--main-nav-font-size: var(--font-size-5);
+}
+
+.main-navigation__list {
+	font-weight: var(--font-weight-bold);
+	font-size: var(--main-nav-font-size);
+}
+
+.main-navigation__link {
+	text-decoration: none;
+	color: currentColor;
+	background:
+		linear-gradient(color-mix(in oklch, currentColor 40%, transparent) 0 0)
+		var(--main-nav-item-progression, 0) 100% / var(--main-nav-item-progression, 0) 2px
+		no-repeat;
+	transition: background 0.3s, background-position 0s 0.3s;
+
+	&[aria-current="page"],
+	&:hover {
+		--main-nav-item-progression: 100%;
+	}
+
+	.main-navigation__item:last-child & {
+		display: inline-flex;
+		flex: 0 0 auto;
+		align-items: center;
+		gap: var(--space-rem-2);
+
+		&::before {
+			content: "";
+			display: block;
+			width: 1.1em;
+			aspect-ratio: 1;
+			mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="%231A2218" d="m16.17 11-5.36-5.36 1.41-1.42L20 12l-7.78 7.78-1.41-1.42L16.17 13H4v-2h12.17Z"/></svg>');
+			mask-size: cover;
+			background-color: currentColor;
+		}
+	}
+}
+
+@container header (width < 48em) {
+	.main-navigation {
+		--main-nav-gap: var(--space-px-5);
+	}
+
+	.main-navigation__trigger {
+		position: relative;
+		display: flex;
+		flex: 0 0 auto;
+		align-items: center;
+		min-height: 3rem;
+		padding: var(--space-px-1);
+		padding-inline-end: calc(var(--space-px-4) + 1.625rem);
+		font-weight: var(--font-weight-bold);
+		font-size: var(--font-size-2);
+		text-transform: uppercase;
+		background-color: transparent;
+		border: 0;
+		cursor: pointer;
+
+		&::before,
+		&::after,
+		> *::before {
+			content: "";
+			position: absolute;
+			inset: calc(50% - (0.125rem + var(--space-px-2))) 0 auto auto;
+			width: 1.625rem;
+			height: 0.125rem;
+			background: currentColor;
+			border-radius: 2px;
+			pointer-events: none;
+			transition: transform 0.2s, color 0.3s;
+		}
+
+		&::after {
+			inset-block-start: calc(50% - (0.125rem - var(--space-px-2)));
+		}
+
+		> * {
+			line-height: 1;
+
+			&::before {
+				inset-block-start: calc(50% - 0.125rem);
+			}
+		}
+
+		&[aria-expanded="true"] {
+			position: relative;
+			z-index: 100;
+			color: var(--color-base-light);
+
+			&::before,
+			&::after {
+				transform: rotateZ(45deg);
+				inset-block-start: calc(50% - 0.125rem);
+			}
+
+			&::after {
+				transform: rotateZ(-45deg);
+			}
+
+			> *::before {
+				background-color: transparent;
+			}
+		}
+	}
+
+	.main-navigation__menu {
+		position: absolute;
+		inset-block-start: 0;
+		inset-inline-start: calc(100% + var(--wrapper-padding-inline, var(--space-px-4)));
+		color: var(--color-base-light);
+		background: var(--color-accent-medium);
+		z-index: 10;
+		width: calc(100% + calc(var(--wrapper-padding-inline, var(--space-px-4)) * 2));
+		height: 100dvh;
+		padding: var(--space-px-4);
+		padding-block-start: calc(var(--header-padding-block, var(--space-px-4)) + 3rem + var(--space-px-4));
+		overflow: hidden;
+		overscroll-behavior: contain;
+		visibility: hidden;
+		transition: transform 0.3s;
+
+		&.is-open {
+			transform: translateX(-100%);
+			visibility: visible;
+		}
+	}
+
+	.main-navigation__list {
+		display: flex;
+		flex-direction: column;
+		gap: var(--main-nav-gap);
+		height: 100%;
+		overflow: auto;
+	}
+}
+
+@container header (width >= 48em) {
+	.main-navigation {
+		--main-nav-gap: var(--space-px-4) calc(var(--space-px-4) * 2);
+		--main-nav-font-size: var(--font-size-4);
+	}
+
+	.main-navigation__trigger {
+		display: none;
+	}
+
+	.main-navigation__list {
+		display: grid;
+		grid-template-rows: repeat(2, auto);
+		grid-template-columns: repeat(3, auto);
+		grid-auto-flow: column dense;
+		gap: var(--main-nav-gap);
+	}
+
+	.header__navigation__item {
+		&:last-child {
+			grid-column: 3;
+		}
+	}
+}
+
+@container header (width >= 62em) {
+	.main-navigation {
+		--main-nav-gap: var(--space-px-4) calc(var(--space-px-4) * 4);
+	}
+}
+
+@container header (width >= 80em) {
+	.main-navigation {
+		--main-nav-gap: var(--space-px-4) calc(var(--space-px-4) * 7.5);
+		--main-nav-font-size: var(--font-size-5);
+	}
+}
